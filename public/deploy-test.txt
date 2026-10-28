@@ -1,0 +1,9 @@
+DEPLOY TEST - Enigma Works Indonesia
+Versi: 1
+Dibuat: 28 Oktober 2026
+
+Jika teks ini tampil di https://domain-anda/deploy-test.txt,
+berarti auto deploy berhasil.
+
+Untuk tes ulang: ubah angka "Versi" di atas, commit, lalu push.
+Hapus file ini setelah pengujian selesai.
