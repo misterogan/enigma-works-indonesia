@@ -4,6 +4,7 @@ namespace App\Providers;
 
 use App\Models\Setting;
 use Carbon\Carbon;
+use Illuminate\Support\Facades\URL;
 use Illuminate\Support\Facades\View;
 use Illuminate\Support\ServiceProvider;
 
@@ -21,5 +22,10 @@ class AppServiceProvider extends ServiceProvider
 
         // Di semua view: $set('kunci', 'cadangan') untuk membaca pengaturan dari backoffice
         View::share('set', fn (string $key, $default = null) => Setting::get($key, $default));
+
+        // Di belakang Cloudflare: semua URL yang dibuat Laravel (canonical, sitemap, aset) memakai https
+        if ($this->app->environment('production')) {
+            URL::forceScheme('https');
+        }
     }
 }
