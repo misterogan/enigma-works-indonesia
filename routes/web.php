@@ -5,9 +5,22 @@ use App\Http\Controllers\Admin\DashboardController;
 use App\Http\Controllers\Admin\ResourceController;
 use App\Http\Controllers\Admin\SettingController;
 use App\Http\Controllers\BlogController;
+use App\Http\Controllers\CompanyProfileController;
 use App\Http\Controllers\PageController;
 use App\Http\Controllers\SitemapController;
 use Illuminate\Support\Facades\Route;
+
+/*
+| Company profile PT Enigma Works Indonesia (enigmaworks.web.id)
+| Didaftarkan paling atas agar "/" di domain ini tidak jatuh ke beranda Enigma Health.
+| Path lain di domain ini dialihkan oleh middleware CompanyDomainGuard.
+*/
+Route::domain(config('company.domain'))->group(function () {
+    Route::get('/', CompanyProfileController::class)->name('company.home');
+});
+Route::domain('www.'.config('company.domain'))->group(function () {
+    Route::redirect('/{path?}', 'https://'.config('company.domain').'/', 301)->where('path', '.*')->name('company.www');
+});
 
 /*
 | Website publik
