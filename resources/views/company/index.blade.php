@@ -3,7 +3,7 @@
   $hero = $company['hero'];
   $about = $company['about'];
   $products = $company['products'];
-  $projects = collect($company['projects']['items'])->filter(fn ($p) => $filled($p['name']))->values();
+  $stack = $company['stack'];
   $phone = $contact['phone'];
   $wa = $contact['whatsapp'];
   $icons = [
@@ -148,6 +148,37 @@
     </div>
   </section>
 
+  {{-- ============ TEKNOLOGI ============ --}}
+  <section class="section stack" id="teknologi">
+    <div class="wrap">
+      <div class="head head-center reveal">
+        <p class="label">{{ $stack['label'] }}</p>
+        <h2>{{ $stack['title'] }}</h2>
+        <p>{{ $stack['text'] }}</p>
+      </div>
+      <div class="orbit-stage reveal" aria-hidden="true">
+        <div class="orbit-core"><span></span></div>
+        @foreach ($stack['orbits'] as $ring => $badges)
+          <div class="orbit orbit-{{ $ring + 1 }}">
+            @foreach ($badges as $i => [$abbr, $name, $color])
+              <span class="orbit-slot" style="--a: {{ round(360 / count($badges) * $i + $ring * 40) }}deg">
+                <span class="tech-badge" style="--c: {{ $color }}" title="{{ $name }}">{{ $abbr }}</span>
+              </span>
+            @endforeach
+          </div>
+        @endforeach
+      </div>
+      <div class="stack-groups">
+        @foreach ($stack['groups'] as $group => $items)
+          <div class="stack-group reveal">
+            <h3>{{ $group }}</h3>
+            <ul>@foreach ($items as $item)<li>{{ $item }}</li>@endforeach</ul>
+          </div>
+        @endforeach
+      </div>
+    </div>
+  </section>
+
   {{-- ============ PRODUK & KEMITRAAN ============ --}}
   <section class="section" id="produk">
     <div class="wrap">
@@ -176,24 +207,6 @@
         </article>
       </div>
 
-      @if ($projects->isNotEmpty())
-      <div class="projects-head reveal">
-        <p class="label">{{ $company['projects']['label'] }}</p>
-        <h3>{{ $company['projects']['title'] }}</h3>
-      </div>
-      <div class="projects">
-        @foreach ($projects as $project)
-          <article class="card project reveal">
-            @if ($filled($project['tag']))<span class="tag">{{ $project['tag'] }}</span>@endif
-            <h4>{{ $project['name'] }}</h4>
-            @if ($filled($project['text']))<p>{{ $project['text'] }}</p>@endif
-            @if ($project['link'])
-              <a href="{{ $company['main_url'].$project['link'] }}" class="more">Baca studi kasus <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
-            @endif
-          </article>
-        @endforeach
-      </div>
-      @endif
     </div>
   </section>
 

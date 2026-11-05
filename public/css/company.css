@@ -132,7 +132,7 @@ p,ol,ul,dl,blockquote,figure{margin:0}
 /* Layanan */
 .services{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
 .service{position:relative;display:grid;gap:12px;align-content:start}
-.service:hover,.project:hover,.partner:hover{transform:translateY(-4px);box-shadow:var(--shadow);border-color:color-mix(in srgb,var(--primary) 35%,var(--line))}
+.service:hover,.partner:hover{transform:translateY(-4px);box-shadow:var(--shadow);border-color:color-mix(in srgb,var(--primary) 35%,var(--line))}
 .ico{width:48px;height:48px;border-radius:14px;display:grid;place-items:center;background:var(--primary-soft);color:var(--primary);margin-bottom:6px;transition:background .3s,color .3s}
 .ico svg{width:24px;height:24px}
 .service:hover .ico{background:var(--primary);color:#fff}
@@ -158,15 +158,38 @@ p,ol,ul,dl,blockquote,figure{margin:0}
 .partner h3{font-size:32px}
 .partner .tagline{font-weight:600}
 .partner p:last-child{color:var(--ink-2)}
-.projects-head{margin:64px 0 20px}
-.projects-head h3{font-size:clamp(24px,2.6vw,32px);margin-top:10px}
-.projects{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:16px}
-.project{display:grid;gap:10px;align-content:start}
-.tag{justify-self:start;font-size:12.5px;font-weight:600;color:var(--primary);padding:5px 10px;border-radius:8px;background:var(--primary-soft)}
-.project h4{font-size:21px}
-.project p{color:var(--ink-2);font-size:15.5px}
-.more{display:inline-flex;align-items:center;gap:8px;font-weight:600;color:var(--primary);text-decoration:none;margin-top:4px}
-.more svg{width:15px;height:15px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+
+/* Teknologi: panggung orbit setengah lingkaran */
+.stack{background:var(--dark);color:var(--dark-ink);position:relative;isolation:isolate;overflow:hidden}
+.stack::before{content:"";position:absolute;inset:0;z-index:-1;background:radial-gradient(60% 50% at 50% 70%,rgba(59,63,216,.28),transparent 70%)}
+.stack .label{color:var(--amber)}
+.head-center{text-align:center;margin-inline:auto}
+.head-center p:last-child{color:var(--dark-ink-2);margin:16px auto 0;max-width:58ch}
+.orbit-stage{position:relative;max-width:1000px;aspect-ratio:2/1;margin:8px auto 0;overflow:hidden;
+  -webkit-mask-image:linear-gradient(#000 82%,transparent);mask-image:linear-gradient(#000 82%,transparent)}
+.orbit{position:absolute;left:50%;bottom:0;aspect-ratio:1;translate:-50% 50%;border-radius:50%;border:1px solid rgba(163,167,194,.18);container-type:inline-size;animation:orbit-spin var(--dur) linear infinite}
+.orbit-1{width:46%;--dur:70s}
+.orbit-2{width:68%;--dur:95s;animation-direction:reverse}
+.orbit-3{width:90%;--dur:120s}
+.orbit-slot{position:absolute;left:50%;top:50%;width:0;height:0;transform:rotate(var(--a)) translateX(50cqw) rotate(calc(-1 * var(--a)))}
+.tech-badge{position:absolute;translate:-50% -50%;width:58px;height:58px;border-radius:50%;display:grid;place-items:center;
+  background:radial-gradient(circle at 30% 25%,#232846,#141830);border:1px solid rgba(163,167,194,.22);color:color-mix(in srgb,var(--c) 72%,#fff);
+  font:700 17px/1 var(--head);letter-spacing:-.02em;box-shadow:0 0 0 6px rgba(15,18,34,.6),0 0 24px -6px var(--c);
+  animation:orbit-spin var(--dur) linear infinite reverse}
+.orbit-2 .tech-badge{animation-direction:normal}
+.orbit-core{position:absolute;left:50%;bottom:0;width:34%;aspect-ratio:2/1;translate:-50% 0;border-radius:999px 999px 0 0;overflow:hidden;
+  background:radial-gradient(#F5A524 1.4px,transparent 1.6px) 0 0/19px 17px,radial-gradient(#7B7FF2 1.4px,transparent 1.6px) 9px 8px/23px 21px;
+  -webkit-mask-image:radial-gradient(100% 200% at 50% 100%,#000 45%,transparent 72%);mask-image:radial-gradient(100% 200% at 50% 100%,#000 45%,transparent 72%);
+  animation:twinkle 5s ease-in-out infinite}
+.orbit-core span{position:absolute;inset:auto 25% -40% 25%;aspect-ratio:1;border-radius:50%;background:radial-gradient(circle,rgba(123,127,242,.55),transparent 65%);animation:pulse 4s ease-in-out infinite}
+@keyframes orbit-spin{to{rotate:360deg}}
+@keyframes twinkle{50%{opacity:.55;background-position:4px -3px,13px 12px}}
+@keyframes pulse{50%{opacity:.5;transform:scale(.9)}}
+.stack-groups{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px;margin-top:40px}
+.stack-group{padding:22px;border-radius:var(--r-md);background:rgba(23,27,49,.7);border:1px solid var(--dark-line)}
+.stack-group h3{font:600 13px/1 var(--font);letter-spacing:.08em;text-transform:uppercase;color:var(--dark-ink-2);margin-bottom:14px}
+.stack-group ul{list-style:none;padding:0;display:flex;flex-wrap:wrap;gap:8px}
+.stack-group li{font-size:14px;font-weight:500;padding:7px 12px;border-radius:999px;background:rgba(255,255,255,.05);border:1px solid var(--dark-line);color:var(--dark-ink)}
 
 /* Cara kerja */
 .steps{list-style:none;padding:0;display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:16px}
@@ -219,6 +242,7 @@ p,ol,ul,dl,blockquote,figure{margin:0}
 
 /* ---------- Responsif ---------- */
 @media (max-width:1100px){
+  .stack-groups{grid-template-columns:1fr 1fr}
   .steps{grid-template-columns:repeat(3,minmax(0,1fr));row-gap:36px}
   .why{grid-template-columns:1fr 1fr}
 }
@@ -239,7 +263,11 @@ p,ol,ul,dl,blockquote,figure{margin:0}
 @media (max-width:640px){
   body{font-size:16px}
   .wrap{padding:0 16px}
-  .services,.why,.row2,.ticks{grid-template-columns:1fr}
+  .services,.why,.row2,.ticks,.stack-groups{grid-template-columns:1fr}
+  .orbit-stage{aspect-ratio:1/0.62}
+  .orbit-1{width:48%}.orbit-2{width:68%}.orbit-3{width:86%}
+  .tech-badge{width:40px;height:40px;font-size:13px;box-shadow:0 0 0 4px rgba(15,18,34,.6),0 0 16px -6px var(--c)}
+  .orbit-core{width:42%}
   .steps{grid-template-columns:1fr}
   .actions .btn{flex:1}
   .contact-list div{grid-template-columns:1fr;gap:4px}

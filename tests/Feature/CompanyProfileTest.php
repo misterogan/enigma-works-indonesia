@@ -23,6 +23,9 @@ class CompanyProfileTest extends TestCase
             ->assertSee('<link rel="canonical" href="https://enigmaworks.web.id/">', false)
             ->assertSee('"@type":"Organization"', false)
             ->assertSee('https://enigmaworks.web.id/css/company.css', false)
+            ->assertSee('Teknologi yang kami gunakan')
+            ->assertSee('FHIR R4')
+            ->assertDontSee('Proyek yang sedang berjalan')
             ->assertDontSee('[ISI', false)
             ->assertDontSee('DHealth');
     }

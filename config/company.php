@@ -40,6 +40,7 @@ return [
     'nav' => [
         'tentang' => 'Tentang',
         'layanan' => 'Layanan',
+        'teknologi' => 'Teknologi',
         'produk' => 'Produk',
         'cara-kerja' => 'Cara Kerja',
         'kontak' => 'Kontak',
@@ -87,6 +88,24 @@ return [
         ],
     ],
 
+    'stack' => [
+        'label' => 'Teknologi',
+        'title' => 'Teknologi yang kami gunakan',
+        'text' => 'Kami memilih teknologi sesuai kebutuhan proyek: stabil untuk sistem yang berjalan setiap hari, terbuka untuk diintegrasikan.',
+        // Lencana yang mengorbit: [singkatan, nama, warna]. Cincin pertama paling dalam.
+        'orbits' => [
+            [['Lv', 'Laravel', '#FF2D20'], ['Py', 'Python', '#3776AB'], ['FH', 'FHIR R4', '#E8673B'], ['Ph', 'PHP', '#777BB4']],
+            [['TS', 'TypeScript', '#3178C6'], ['Re', 'React', '#149ECA'], ['Vu', 'Vue.js', '#42B883'], ['Pg', 'PostgreSQL', '#4169E1'], ['Nx', 'Next.js', '#C9CBDA']],
+            [['Js', 'Node.js', '#5FA04E'], ['Fl', 'Flutter', '#02569B'], ['Dk', 'Docker', '#2496ED'], ['My', 'MySQL', '#4479A1'], ['Go', 'Go', '#00ADD8'], ['Jv', 'Java', '#E76F00'], ['H7', 'HL7 v2', '#F5A524']],
+        ],
+        'groups' => [
+            'Backend' => ['PHP', 'Laravel', 'Node.js', 'Python', 'Java', 'Go'],
+            'Frontend & mobile' => ['JavaScript', 'TypeScript', 'React', 'Next.js', 'Vue.js', 'Nuxt', 'Flutter'],
+            'Data & infrastruktur' => ['MySQL', 'MariaDB', 'PostgreSQL', 'Docker', 'Linux', 'Windows Server'],
+            'Integrasi kesehatan' => ['HL7 v2', 'FHIR R4', 'DICOM', 'REST API'],
+        ],
+    ],
+
     'products' => [
         'label' => 'Produk & kemitraan',
         'title' => 'Produk dan mitra kami',
@@ -103,25 +122,6 @@ return [
             'name' => 'Mekari',
             'tagline' => 'Solusi HR, payroll, dan akuntansi',
             'text' => 'Sebagai partner resmi Mekari, kami membantu memilih, menerapkan, dan menghubungkan solusi Mekari dengan operasional perusahaan Anda.',
-        ],
-    ],
-
-    'projects' => [
-        'label' => 'Proyek',
-        'title' => 'Proyek yang sedang berjalan',
-        'items' => [
-            [
-                'name' => 'RSU Serenapita',
-                'tag' => 'Kesehatan',
-                'text' => 'Implementasi SIMRS dengan bridging BPJS Kesehatan dan integrasi SATUSEHAT yang sudah aktif.',
-                'link' => '/studi-kasus/rsu-serenapita',
-            ],
-            [
-                'name' => '[ISI PROYEK BERIKUTNYA]',
-                'tag' => '[ISI BIDANG]',
-                'text' => '[ISI RINGKASAN PROYEK]',
-                'link' => null,
-            ],
         ],
     ],
 
