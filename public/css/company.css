@@ -191,6 +191,42 @@ p,ol,ul,dl,blockquote,figure{margin:0}
 .stack-group ul{list-style:none;padding:0;display:flex;flex-wrap:wrap;gap:8px}
 .stack-group li{font-size:14px;font-weight:500;padding:7px 12px;border-radius:999px;background:rgba(255,255,255,.05);border:1px solid var(--dark-line);color:var(--dark-ink)}
 
+/* Infrastruktur & keamanan: diagram berlapis (defense in depth) */
+.secure-grid{display:grid;grid-template-columns:minmax(0,.95fr) minmax(0,1.05fr);gap:56px;align-items:start}
+.layers-art{position:sticky;top:104px;aspect-ratio:1;width:100%;max-width:500px;justify-self:center}
+.layers-art svg{position:absolute;inset:0;width:100%;height:100%;overflow:visible}
+.band{fill:var(--card);stroke:var(--line-2);stroke-width:1.2;transition:fill .45s var(--ease),stroke .45s,stroke-width .45s}
+.band-4{fill:color-mix(in srgb,var(--primary) 3%,var(--card))}
+.band-3{fill:color-mix(in srgb,var(--primary) 6%,var(--card))}
+.band-2{fill:color-mix(in srgb,var(--primary) 9%,var(--card))}
+.band.core{fill:var(--primary);stroke:none}
+.band-label{font:600 11px var(--font);letter-spacing:.16em;text-transform:uppercase;fill:var(--ink-3);transition:fill .3s}
+.core-ico path{fill:none;stroke:#fff;stroke-width:2;stroke-linejoin:round;stroke-linecap:round}
+.core-label{font:600 12px var(--head);fill:#fff;letter-spacing:.02em}
+.blip{fill:var(--amber);animation:blink 2.4s ease-in-out infinite}
+.sweep{position:absolute;inset:3.5%;z-index:1;border-radius:50%;pointer-events:none;
+  background:conic-gradient(from 0deg,transparent 0 280deg,color-mix(in srgb,var(--primary) 18%,transparent) 360deg);
+  -webkit-mask-image:radial-gradient(circle,transparent 26.5%,#000 27%);mask-image:radial-gradient(circle,transparent 26.5%,#000 27%);
+  animation:orbit-spin 8s linear infinite}
+.secure[data-active="5"] .band-5,.secure[data-active="4"] .band-4,.secure[data-active="3"] .band-3,.secure[data-active="2"] .band-2{fill:color-mix(in srgb,var(--primary) 17%,var(--card));stroke:var(--primary);stroke-width:2.2}
+.secure[data-active="5"] .band-label-5,.secure[data-active="4"] .band-label-4,.secure[data-active="3"] .band-label-3,.secure[data-active="2"] .band-label-2{fill:var(--primary)}
+.secure[data-active="1"] .band.core{filter:drop-shadow(0 0 18px color-mix(in srgb,var(--primary) 80%,transparent));stroke:var(--amber);stroke-width:3}
+@keyframes blink{50%{opacity:.25}}
+.layers{list-style:none;padding:0;display:grid;gap:10px}
+.layer{position:relative;width:100%;display:grid;grid-template-columns:48px minmax(0,1fr);gap:16px;padding:18px 20px;text-align:left;font:inherit;color:inherit;cursor:pointer;
+  background:var(--card);border:1px solid var(--line);border-radius:var(--r-md);overflow:hidden;transition:border-color .3s,box-shadow .3s,transform .3s var(--ease)}
+.layer::before{content:"";position:absolute;left:0;top:0;bottom:0;width:3px;background:var(--primary);transform:scaleY(0);transition:transform .35s var(--ease)}
+.layer:hover{transform:translateX(4px)}
+.layer[aria-pressed="true"]{border-color:color-mix(in srgb,var(--primary) 45%,var(--line));box-shadow:var(--shadow)}
+.layer[aria-pressed="true"]::before{transform:scaleY(1)}
+.layer .ico{margin:0}
+.layer[aria-pressed="true"] .ico{background:var(--primary);color:#fff}
+.layer-title{display:block;font:600 18px/1.3 var(--head);letter-spacing:-.01em}
+.layer-text{display:block;color:var(--ink-2);font-size:15px;line-height:1.6;margin-top:4px}
+.layer-tags{display:flex;flex-wrap:wrap;gap:6px;max-height:0;overflow:hidden;opacity:0;transition:max-height .45s var(--ease),opacity .3s,margin .3s}
+.layer[aria-pressed="true"] .layer-tags{max-height:120px;opacity:1;margin-top:12px}
+.layer-tags span{font-size:13px;font-weight:500;padding:5px 10px;border-radius:999px;background:var(--primary-soft);color:var(--primary)}
+
 /* Cara kerja */
 .steps{list-style:none;padding:0;display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:16px}
 .steps li{position:relative;padding-top:20px;border-top:2px solid var(--line-2)}
@@ -247,12 +283,16 @@ p,ol,ul,dl,blockquote,figure{margin:0}
   .why{grid-template-columns:1fr 1fr}
 }
 @media (max-width:960px){
-  .hero-grid,.about,.contact,.products{grid-template-columns:1fr}
+  .hero-grid,.about,.contact,.products,.secure-grid{grid-template-columns:1fr}
+  .layers-art{position:relative;top:auto;max-width:380px}
   .circuit{justify-self:center;max-width:520px}
   .services{grid-template-columns:1fr 1fr}
   .head-split{grid-template-columns:1fr}
 }
-@media (max-width:860px){
+@media (max-width:1180px){
+  .nav-cta{display:none}
+}
+@media (max-width:1080px){
   .menu{display:grid}
   .nav-cta{display:none}
   .nav-links{display:none;position:absolute;left:16px;right:16px;top:calc(100% + 8px);flex-direction:column;padding:10px;background:var(--card);border:1px solid var(--line);border-radius:var(--r-lg);box-shadow:var(--shadow)}

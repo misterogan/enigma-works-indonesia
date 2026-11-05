@@ -41,6 +41,7 @@ return [
         'tentang' => 'Tentang',
         'layanan' => 'Layanan',
         'teknologi' => 'Teknologi',
+        'keamanan' => 'Keamanan',
         'produk' => 'Produk',
         'cara-kerja' => 'Cara Kerja',
         'kontak' => 'Kontak',
@@ -103,6 +104,21 @@ return [
             'Frontend & mobile' => ['JavaScript', 'TypeScript', 'React', 'Next.js', 'Vue.js', 'Nuxt', 'Flutter'],
             'Data & infrastruktur' => ['MySQL', 'MariaDB', 'PostgreSQL', 'Docker', 'Linux', 'Windows Server'],
             'Integrasi kesehatan' => ['HL7 v2', 'FHIR R4', 'DICOM', 'REST API'],
+        ],
+    ],
+
+    'security' => [
+        'label' => 'Infrastruktur & keamanan',
+        'title' => 'Berlapis, dari jaringan *sampai data*',
+        'text' => 'Keamanan tidak cukup di satu titik. Kami menata setiap lapisan, dari jaringan dan server, perangkat pengguna, hingga data sensitif, lalu memeriksanya secara berkala.',
+        'core' => 'Data Anda',
+        // ring: 1 = paling dalam (data), 5 = paling luar (tata kelola)
+        'layers' => [
+            ['ring' => 4, 'icon' => 'network', 'short' => 'Jaringan', 'title' => 'Infrastruktur & jaringan', 'text' => 'Desain dan instalasi LAN, Wi-Fi, dan firewall, dengan jaringan yang dipisah sesuai fungsi. Perangkat diadakan melalui principal resmi.', 'tags' => ['LAN & Wi-Fi', 'Firewall', 'Segmentasi jaringan', 'Kabel terstruktur']],
+            ['ring' => 3, 'icon' => 'server', 'short' => 'Server', 'title' => 'Server', 'text' => 'Pengadaan, instalasi, dan konfigurasi server Windows maupun Linux, lengkap dengan pemantauan kapasitas dan backup terjadwal.', 'tags' => ['Windows & Linux Server', 'Pemantauan', 'Backup terjadwal', 'Pemulihan']],
+            ['ring' => 2, 'icon' => 'shield', 'short' => 'Endpoint', 'title' => 'Antivirus & endpoint', 'text' => 'Antivirus terpusat untuk seluruh komputer dan server, dipantau dari satu konsol, disertai pembaruan sistem yang terjadwal.', 'tags' => ['Antivirus terpusat', 'Satu konsol', 'Pembaruan terjadwal', 'Respons insiden']],
+            ['ring' => 5, 'icon' => 'audit', 'short' => 'IT audit', 'title' => 'IT audit', 'text' => 'Pemeriksaan menyeluruh atas aset, hak akses, kebijakan, dan kesiapan pemulihan. Hasilnya laporan temuan dengan rekomendasi yang diurutkan sesuai risiko.', 'tags' => ['Inventaris aset', 'Tinjauan hak akses', 'Uji pemulihan', 'Laporan & rekomendasi']],
+            ['ring' => 1, 'icon' => 'dlp', 'short' => 'DLP', 'title' => 'DLP (Data Loss Prevention)', 'text' => 'Mencegah data sensitif keluar tanpa izin, lewat USB, email, maupun unggahan web. Membantu organisasi menjalankan kewajiban pelindungan data pribadi.', 'tags' => ['Klasifikasi data', 'Kontrol USB & perangkat', 'Pemantauan email & web', 'Enkripsi']],
         ],
     ],
 

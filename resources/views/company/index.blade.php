@@ -4,6 +4,9 @@
   $about = $company['about'];
   $products = $company['products'];
   $stack = $company['stack'];
+  $security = $company['security'];
+  $rings = [5 => [186, 169], 4 => [152, 135], 3 => [118, 101], 2 => [84, 67]];
+  $shortByRing = collect($security['layers'])->pluck('short', 'ring');
   $phone = $contact['phone'];
   $wa = $contact['whatsapp'];
   $icons = [
@@ -13,6 +16,9 @@
     'server' => '<rect x="4" y="3.5" width="16" height="7" rx="2"/><rect x="4" y="13.5" width="16" height="7" rx="2"/><path d="M8 7h.01M8 17h.01"/>',
     'shield' => '<path d="M12 3l8 3v6c0 4.5-3.4 8-8 9-4.6-1-8-4.5-8-9V6z"/><path d="M9 12l2 2 4-4"/>',
     'support' => '<circle cx="12" cy="12" r="8"/><path d="M12 8v4l3 2"/>',
+    'network' => '<rect x="9" y="3" width="6" height="5" rx="1"/><rect x="3" y="16" width="6" height="5" rx="1"/><rect x="15" y="16" width="6" height="5" rx="1"/><path d="M12 8v4M6 16v-2h12v2"/>',
+    'audit' => '<path d="M9 4h6v3H9z"/><path d="M15 5h2a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2h2"/><path d="M9 13l2 2 4-4"/>',
+    'dlp' => '<rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3M12 15v2"/>',
   ];
 @endphp
 
@@ -175,6 +181,55 @@
             <ul>@foreach ($items as $item)<li>{{ $item }}</li>@endforeach</ul>
           </div>
         @endforeach
+      </div>
+    </div>
+  </section>
+
+  {{-- ============ INFRASTRUKTUR & KEAMANAN ============ --}}
+  <section class="section alt secure" id="keamanan" data-active="{{ $security['layers'][0]['ring'] }}">
+    <div class="wrap">
+      <div class="head head-split reveal">
+        <div>
+          <p class="label">{{ $security['label'] }}</p>
+          <h2>{{ \App\Support\Text::highlight($security['title'], 'hl') }}</h2>
+        </div>
+        <p>{{ $security['text'] }}</p>
+      </div>
+      <div class="secure-grid">
+        <div class="layers-art reveal" aria-hidden="true">
+          <div class="sweep"></div>
+          <svg viewBox="0 0 400 400">
+            <defs>
+              @foreach ($rings as $ring => [$r, $mid])
+                <path id="arc{{ $ring }}" d="M{{ 200 - $mid }} 200 A{{ $mid }} {{ $mid }} 0 0 1 {{ 200 + $mid }} 200"/>
+              @endforeach
+            </defs>
+            @foreach ($rings as $ring => [$r, $mid])
+              <circle class="band band-{{ $ring }}" cx="200" cy="200" r="{{ $r }}"/>
+            @endforeach
+            @foreach ($rings as $ring => [$r, $mid])
+              <text class="band-label band-label-{{ $ring }}"><textPath href="#arc{{ $ring }}" startOffset="50%" text-anchor="middle">{{ $shortByRing[$ring] ?? '' }}</textPath></text>
+              <circle class="blip" cx="{{ 200 + $r * cos(deg2rad(30 + $ring * 47)) }}" cy="{{ 200 + $r * sin(deg2rad(30 + $ring * 47)) }}" r="4" style="animation-delay: -{{ $ring * 0.6 }}s"/>
+            @endforeach
+            <circle class="band band-1 core" cx="200" cy="200" r="50"/>
+            <g class="core-ico" transform="translate(188 172)"><path d="M3 13h18v12H3z M7 13V9a5 5 0 0 1 10 0v4"/></g>
+            <text x="200" y="222" text-anchor="middle" class="core-label">{{ $security['core'] }}</text>
+          </svg>
+        </div>
+        <ul class="layers" role="list">
+          @foreach ($security['layers'] as $layer)
+            <li>
+              <button type="button" class="layer reveal" data-ring="{{ $layer['ring'] }}" aria-pressed="{{ $loop->first ? 'true' : 'false' }}">
+                <span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true">{!! $icons[$layer['icon']] !!}</svg></span>
+                <span class="layer-body">
+                  <span class="layer-title">{{ $layer['title'] }}</span>
+                  <span class="layer-text">{{ $layer['text'] }}</span>
+                  <span class="layer-tags">@foreach ($layer['tags'] as $tag)<span>{{ $tag }}</span>@endforeach</span>
+                </span>
+              </button>
+            </li>
+          @endforeach
+        </ul>
       </div>
     </div>
   </section>

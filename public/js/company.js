@@ -69,3 +69,18 @@ if (form) {
     window.open('https://wa.me/' + form.dataset.whatsapp + '?text=' + encodeURIComponent(msg), '_blank', 'noopener');
   });
 }
+
+// Infrastruktur & keamanan: lapisan pada diagram menyala sesuai layanan yang dipilih
+const secure = $('#keamanan');
+if (secure) {
+  const layers = $$('.layer', secure);
+  const activate = (btn) => {
+    secure.dataset.active = btn.dataset.ring;
+    layers.forEach((b) => b.setAttribute('aria-pressed', String(b === btn)));
+  };
+  layers.forEach((btn) => {
+    btn.addEventListener('click', () => activate(btn));
+    btn.addEventListener('focus', () => activate(btn));
+    if (window.matchMedia('(hover: hover)').matches) btn.addEventListener('mouseenter', () => activate(btn));
+  });
+}

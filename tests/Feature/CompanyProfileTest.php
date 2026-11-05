@@ -25,6 +25,9 @@ class CompanyProfileTest extends TestCase
             ->assertSee('https://enigmaworks.web.id/css/company.css', false)
             ->assertSee('Teknologi yang kami gunakan')
             ->assertSee('FHIR R4')
+            ->assertSee('id="keamanan"', false)
+            ->assertSee('DLP (Data Loss Prevention)')
+            ->assertSee('IT audit')
             ->assertDontSee('Proyek yang sedang berjalan')
             ->assertDontSee('[ISI', false)
             ->assertDontSee('DHealth');
