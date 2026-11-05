@@ -1,0 +1,948 @@
+{
+    "settings": [
+        {
+            "key": "company_name",
+            "value": "Enigma Works Indonesia",
+            "created_at": "2026-10-27 07:25:02",
+            "updated_at": "2026-10-27 07:25:02"
+        },
+        {
+            "key": "legal_name",
+            "value": "PT Enigma Works Indonesia",
+            "created_at": "2026-10-27 07:25:02",
+            "updated_at": "2026-10-27 07:25:02"
+        },
+        {
+            "key": "phone",
+            "value": "0838-7464-3903",
+            "created_at": "2026-10-27 07:25:02",
+            "updated_at": "2026-10-27 07:25:02"
+        },
+        {
+            "key": "phone_e164",
+            "value": "+6283874643903",
+            "created_at": "2026-10-27 07:25:02",
+            "updated_at": "2026-10-27 07:25:02"
+        },
+        {
+            "key": "whatsapp",
+            "value": "6283874643903",
+            "created_at": "2026-10-27 07:25:02",
+            "updated_at": "2026-10-27 07:25:02"
+        },
+        {
+            "key": "email",
+            "value": "info@enigmaworks.co.id",
+            "created_at": "2026-10-27 07:25:02",
+            "updated_at": "2026-10-27 07:25:02"
+        },
+        {
+            "key": "street",
+            "value": "Perumahan Golden Estesia, Jl. Serua Raya No. 56",
+            "created_at": "2026-10-27 07:25:02",
+            "updated_at": "2026-10-27 07:25:02"
+        },
+        {
+            "key": "city",
+            "value": "Depok",
+            "created_at": "2026-10-27 07:25:03",
+            "updated_at": "2026-10-27 07:25:03"
+        },
+        {
+            "key": "region",
+            "value": "Jawa Barat",
+            "created_at": "2026-10-27 07:25:03",
+            "updated_at": "2026-10-27 07:25:03"
+        },
+        {
+            "key": "linkedin",
+            "value": null,
+            "created_at": "2026-10-27 07:25:03",
+            "updated_at": "2026-10-27 07:39:31"
+        },
+        {
+            "key": "instagram",
+            "value": "https://www.instagram.com/enigmaworksindonesia",
+            "created_at": "2026-10-27 07:25:03",
+            "updated_at": "2026-10-27 07:55:29"
+        },
+        {
+            "key": "youtube",
+            "value": null,
+            "created_at": "2026-10-27 07:25:03",
+            "updated_at": "2026-10-27 07:39:31"
+        },
+        {
+            "key": "logo",
+            "value": "uploads/9cW8YUFrg8MDYml0b2hT0i8ImttrZW6iGEOjMVHB.png",
+            "created_at": "2026-10-27 07:25:03",
+            "updated_at": "2026-10-27 07:39:31"
+        },
+        {
+            "key": "og_image",
+            "value": "uploads/lrIXy7eb23DEZA1g1UrUM89ZNDXZL0R2uklmoQkd.jpg",
+            "created_at": "2026-10-27 07:25:03",
+            "updated_at": "2026-10-27 08:32:11"
+        },
+        {
+            "key": "partner_line",
+            "value": "Partner resmi Mekari",
+            "created_at": "2026-10-27 07:25:03",
+            "updated_at": "2026-11-05 03:54:05"
+        },
+        {
+            "key": "seo_title",
+            "value": "SIMRS Enigma Health untuk Rumah Sakit di Medan & Sumut",
+            "created_at": "2026-10-27 07:25:03",
+            "updated_at": "2026-11-05 03:54:05"
+        },
+        {
+            "key": "seo_description",
+            "value": "SIMRS Enigma Health untuk rumah sakit dan klinik: RME, bridging BPJS Kesehatan, dan integrasi SATUSEHAT. Melayani Medan dan Sumatera Utara. Konsultasi gratis.",
+            "created_at": "2026-10-27 07:25:03",
+            "updated_at": "2026-11-05 03:54:05"
+        },
+        {
+            "key": "title_suffix",
+            "value": " | Enigma Health",
+            "created_at": "2026-10-27 07:25:03",
+            "updated_at": "2026-11-05 03:54:05"
+        },
+        {
+            "key": "announce_text",
+            "value": "Kini melayani integrasi SATUSEHAT untuk klinik dan apotek.",
+            "created_at": "2026-10-27 07:25:03",
+            "updated_at": "2026-10-27 07:25:03"
+        },
+        {
+            "key": "announce_link",
+            "value": "/layanan/integrasi-satusehat",
+            "created_at": "2026-10-27 07:25:03",
+            "updated_at": "2026-10-27 07:25:03"
+        },
+        {
+            "key": "hero_title",
+            "value": "SIMRS *Enigma Health* untuk rumah sakit yang terintegrasi",
+            "created_at": "2026-10-27 07:25:03",
+            "updated_at": "2026-11-05 03:54:05"
+        },
+        {
+            "key": "hero_subtitle",
+            "value": "Enigma Health menyatukan pendaftaran, rekam medis elektronik, penunjang, farmasi, kasir, dan klaim dalam satu SIMRS yang terhubung ke BPJS Kesehatan dan SATUSEHAT. Diimplementasikan oleh tim Enigma Works Indonesia untuk rumah sakit dan klinik di Medan, Sumatera Utara, dan seluruh Indonesia.",
+            "created_at": "2026-10-27 07:25:03",
+            "updated_at": "2026-11-05 03:54:05"
+        },
+        {
+            "key": "hero_badges",
+            "value": "SIMRS Enigma Health\nBridging BPJS & SATUSEHAT\nPartner resmi Mekari",
+            "created_at": "2026-10-27 07:25:03",
+            "updated_at": "2026-11-05 03:54:05"
+        },
+        {
+            "key": "hero_cta_primary",
+            "value": "Konsultasi gratis",
+            "created_at": "2026-10-27 07:25:03",
+            "updated_at": "2026-10-27 07:25:03"
+        },
+        {
+            "key": "hero_cta_secondary",
+            "value": "Lihat layanan",
+            "created_at": "2026-10-27 07:25:03",
+            "updated_at": "2026-10-27 07:25:03"
+        },
+        {
+            "key": "logos_label",
+            "value": "Proyek dan integrasi yang berjalan",
+            "created_at": "2026-10-27 07:25:03",
+            "updated_at": "2026-11-05 03:54:05"
+        },
+        {
+            "key": "logos_items",
+            "value": "RSU Serenapita\nBPJS Kesehatan\nSATUSEHAT Kemenkes\nMobile JKN\nMekari",
+            "created_at": "2026-10-27 07:25:03",
+            "updated_at": "2026-10-27 07:25:03"
+        },
+        {
+            "key": "ribbon_items",
+            "value": "Data pasien dicatat sekali\nSEP terbit dari SIMRS\nRME terkirim ke SATUSEHAT\nKlaim lebih rapi",
+            "created_at": "2026-10-27 07:25:03",
+            "updated_at": "2026-11-05 03:54:05"
+        },
+        {
+            "key": "hub_pill",
+            "value": "Arsitektur integrasi",
+            "created_at": "2026-10-27 07:25:03",
+            "updated_at": "2026-11-04 15:50:02"
+        },
+        {
+            "key": "hub_title",
+            "value": "Satu SIMRS, *semua unit saling terhubung*",
+            "created_at": "2026-10-27 07:25:03",
+            "updated_at": "2026-11-05 03:54:05"
+        },
+        {
+            "key": "hub_text",
+            "value": "Enigma Health menjadi pusat data pasien. Aplikasi penunjang yang sudah berjalan tetap bisa dipakai, lalu dihubungkan ke BPJS Kesehatan, SATUSEHAT, dan Mekari melalui lapisan integrasi yang kami rawat.",
+            "created_at": "2026-10-27 07:25:03",
+            "updated_at": "2026-11-05 03:54:05"
+        },
+        {
+            "key": "services_title",
+            "value": "Dari SIMRS sampai infrastruktur, *satu tim*",
+            "created_at": "2026-10-27 07:25:03",
+            "updated_at": "2026-11-05 03:54:05"
+        },
+        {
+            "key": "services_text",
+            "value": "Enigma Health sebagai inti, ditambah integrasi, perangkat, keamanan data, dan pemeliharaan. Semuanya ditangani satu tim yang memahami alur kerja rumah sakit.",
+            "created_at": "2026-10-27 07:25:03",
+            "updated_at": "2026-11-05 03:54:05"
+        },
+        {
+            "key": "proof_title",
+            "value": "Sudah berjalan di *rumah sakit*",
+            "created_at": "2026-10-27 07:25:03",
+            "updated_at": "2026-10-27 07:25:03"
+        },
+        {
+            "key": "proof_text",
+            "value": "Di RSU Serenapita, Enigma Health diimplementasikan bersama bridging BPJS Kesehatan dan integrasi SATUSEHAT yang sudah aktif. Ini yang bisa kami tunjukkan saat ini.",
+            "created_at": "2026-10-27 07:25:03",
+            "updated_at": "2026-11-05 03:54:05"
+        },
+        {
+            "key": "stats",
+            "value": "BPJS | Bridging aktif di proyek berjalan\nSATUSEHAT | Pengiriman data rekam medis berjalan\nLokal | Tim datang langsung ke Medan dan Sumatera Utara\nMekari | Partner resmi untuk HR dan keuangan",
+            "created_at": "2026-10-27 07:25:03",
+            "updated_at": "2026-11-05 03:54:05"
+        },
+        {
+            "key": "stats_note",
+            "value": "Status per proyek yang sedang berjalan. Angka capaian akan ditampilkan setelah terukur.",
+            "created_at": "2026-10-27 07:25:03",
+            "updated_at": "2026-11-05 03:54:05"
+        },
+        {
+            "key": "portfolio_title",
+            "value": "Proyek yang sedang *berjalan*",
+            "created_at": "2026-10-27 07:25:03",
+            "updated_at": "2026-11-05 03:54:05"
+        },
+        {
+            "key": "portfolio_text",
+            "value": "Setiap proyek kami tangani langsung, dari survei sampai pendampingan setelah go-live.",
+            "created_at": "2026-10-27 07:25:03",
+            "updated_at": "2026-11-05 03:54:05"
+        },
+        {
+            "key": "portfolio_more",
+            "value": "",
+            "created_at": "2026-10-27 07:25:03",
+            "updated_at": "2026-11-05 03:54:05"
+        },
+        {
+            "key": "process_title",
+            "value": "Proses kerja yang *jelas*",
+            "created_at": "2026-10-27 07:25:03",
+            "updated_at": "2026-10-27 07:25:03"
+        },
+        {
+            "key": "process_text",
+            "value": "Setiap tahap disepakati sejak awal, sehingga rumah sakit tahu apa yang dikerjakan, kapan, dan oleh siapa.",
+            "created_at": "2026-10-27 07:25:04",
+            "updated_at": "2026-10-27 07:25:04"
+        },
+        {
+            "key": "process_steps",
+            "value": "Survei | Kami mempelajari alur pelayanan, sistem yang berjalan, dan perangkat yang tersedia.\nRancangan | Modul, jadwal, dan biaya disusun tertulis sebelum pekerjaan dimulai.\nImplementasi | Instalasi Enigma Health, migrasi data, bridging BPJS, dan integrasi SATUSEHAT.\nPelatihan | Staf setiap unit didampingi sampai terbiasa menggunakan sistem.\nPendampingan | Helpdesk dan pemeliharaan rutin sesuai SLA yang disepakati.",
+            "created_at": "2026-10-27 07:25:04",
+            "updated_at": "2026-11-05 03:54:05"
+        },
+        {
+            "key": "area_title",
+            "value": "SIMRS untuk rumah sakit di Medan dan Sumatera Utara",
+            "created_at": "2026-10-27 07:25:04",
+            "updated_at": "2026-11-05 03:54:05"
+        },
+        {
+            "key": "area_text",
+            "value": "Tim kami datang langsung untuk survei, instalasi, dan pelatihan. Setelah sistem berjalan, dukungan harian dilakukan dari jarak jauh dengan kunjungan berkala. Mulai dari Sumatera Utara, terbuka untuk seluruh Indonesia.",
+            "created_at": "2026-10-27 07:25:04",
+            "updated_at": "2026-11-05 03:54:05"
+        },
+        {
+            "key": "blog_title",
+            "value": "Wawasan seputar *SIMRS*",
+            "created_at": "2026-10-27 07:25:04",
+            "updated_at": "2026-10-27 07:25:04"
+        },
+        {
+            "key": "blog_text",
+            "value": "Panduan praktis seputar SIMRS, bridging BPJS Kesehatan, dan SATUSEHAT, ditulis dari pengalaman implementasi di lapangan.",
+            "created_at": "2026-10-27 07:25:04",
+            "updated_at": "2026-11-05 03:54:05"
+        },
+        {
+            "key": "faq_title",
+            "value": "Pertanyaan yang sering diajukan",
+            "created_at": "2026-10-27 07:25:04",
+            "updated_at": "2026-10-27 07:25:04"
+        },
+        {
+            "key": "faq_text",
+            "value": "Pertanyaan yang paling sering kami terima dari direktur dan kepala IT rumah sakit. Belum menemukan jawabannya? Hubungi kami melalui WhatsApp.",
+            "created_at": "2026-10-27 07:25:04",
+            "updated_at": "2026-11-05 03:54:05"
+        },
+        {
+            "key": "final_small",
+            "value": "Konsultasi awal gratis",
+            "created_at": "2026-10-27 07:25:04",
+            "updated_at": "2026-10-27 07:25:04"
+        },
+        {
+            "key": "final_title",
+            "value": "Siap menerapkan SIMRS yang terhubung?",
+            "created_at": "2026-10-27 07:25:04",
+            "updated_at": "2026-11-05 03:54:05"
+        },
+        {
+            "key": "final_text",
+            "value": "Ceritakan kondisi rumah sakit Anda. Kami petakan kebutuhan, tunjukkan cara kerja Enigma Health, dan susun langkah implementasinya, tanpa biaya.",
+            "created_at": "2026-10-27 07:25:04",
+            "updated_at": "2026-11-05 03:54:05"
+        },
+        {
+            "key": "contact_title",
+            "value": "Ceritakan kebutuhan rumah sakit Anda",
+            "created_at": "2026-10-27 07:25:04",
+            "updated_at": "2026-10-27 07:25:04"
+        },
+        {
+            "key": "contact_text",
+            "value": "Kami membalas di hari kerja yang sama.",
+            "created_at": "2026-10-27 07:25:04",
+            "updated_at": "2026-10-27 07:25:04"
+        },
+        {
+            "key": "about_intro",
+            "value": "PT Enigma Works Indonesia adalah penyedia Enigma Health, SIMRS untuk rumah sakit dan klinik, sekaligus integrator IT rumah sakit. Kami mengimplementasikan Enigma Health, menghubungkannya ke BPJS Kesehatan dan SATUSEHAT, lalu mendampingi rumah sakit sampai sistem benar-benar dipakai di setiap unit.",
+            "created_at": "2026-10-27 07:25:04",
+            "updated_at": "2026-11-05 03:54:05"
+        },
+        {
+            "key": "about_body",
+            "value": "## Siapa kami\n\nPT Enigma Works Indonesia berkedudukan di Depok, Jawa Barat, dan saat ini berfokus melayani rumah sakit dan klinik di Medan dan Sumatera Utara, lalu seluruh Indonesia.\n\nEnigma Health disediakan oleh PT Enigma Works Indonesia dan diimplementasikan langsung oleh tim kami. Fokus kami adalah membuat SIMRS benar-benar dipakai: data pasien cukup dicatat sekali, terhubung ke BPJS Kesehatan dan SATUSEHAT, dan didukung perangkat serta jaringan yang andal.\n\n## Cerita kami\n\n[ISI CERITA PENDIRI]\n\n## Apa yang kami kerjakan\n\n- **SIMRS Enigma Health** untuk rumah sakit, ditambah versi ringkas untuk klinik dan apotek.\n- **Integrasi**: bridging BPJS Kesehatan, integrasi SATUSEHAT, dan aplikasi pendukung yang terhubung ke SIMRS.\n- **Infrastruktur**: hardware, jaringan, keamanan data, dan backup melalui principal resmi.\n- **Pendampingan**: pelatihan, helpdesk, dan maintenance dengan SLA yang jelas.\n\n## Kemitraan\n\n- **Mekari**: kami adalah partner resmi Mekari untuk HR, payroll, akuntansi, dan komunikasi pelanggan.\n- **Principal perangkat**: hardware dan jaringan diadakan melalui principal dan distributor resmi, sehingga garansi terjamin.\n\n## Cara kami bekerja\n\nSetiap proyek dimulai dari survei dan rancangan tertulis. Kami mendampingi rumah sakit sampai sistem berjalan dan staf terbiasa menggunakannya, lalu melanjutkan dengan dukungan dan pemeliharaan rutin.",
+            "created_at": "2026-10-27 07:25:04",
+            "updated_at": "2026-11-05 03:54:05"
+        },
+        {
+            "key": "logo_height",
+            "value": "54",
+            "created_at": "2026-10-27 07:52:38",
+            "updated_at": "2026-10-27 07:53:04"
+        },
+        {
+            "key": "show_company_name",
+            "value": "1",
+            "created_at": "2026-10-27 07:52:38",
+            "updated_at": "2026-10-27 07:52:38"
+        },
+        {
+            "key": "standards_label",
+            "value": "Standar yang kami tangani",
+            "created_at": "2026-11-04 15:50:05",
+            "updated_at": "2026-11-04 15:50:05"
+        },
+        {
+            "key": "standards_items",
+            "value": "HL7 v2\nFHIR R4\nDICOM\nREST API\nICD-10 & ICD-9-CM\nLOINC\nSNOMED CT\nKFA",
+            "created_at": "2026-11-04 15:50:05",
+            "updated_at": "2026-11-04 15:50:05"
+        },
+        {
+            "key": "product_name",
+            "value": "Enigma Health",
+            "created_at": "2026-11-05 03:54:05",
+            "updated_at": "2026-11-05 03:54:05"
+        }
+    ],
+    "services": [
+        {
+            "slug": "simrs",
+            "group": "software",
+            "layer": "SIMRS",
+            "name": "SIMRS Enigma Health",
+            "short": "Satu SIMRS untuk pendaftaran, rekam medis elektronik, penunjang, farmasi, kasir, hingga klaim BPJS. Tersedia juga versi ringkas untuk klinik dan apotek.",
+            "badge": "Produk utama",
+            "icon": "pulse",
+            "tags": "[\"Pendaftaran\",\"Rawat jalan\",\"Rawat inap\",\"IGD\",\"Rekam medis elektronik\",\"Penunjang\",\"Farmasi\",\"Kasir\",\"Klaim\",\"Dashboard manajemen\"]",
+            "seo_title": "SIMRS Enigma Health: Aplikasi SIMRS dan RME Rumah Sakit",
+            "seo_description": "SIMRS Enigma Health untuk rumah sakit dan klinik: rekam medis elektronik, farmasi, kasir, klaim BPJS, dan SATUSEHAT dalam satu sistem. Konsultasi gratis.",
+            "h1": "SIMRS Enigma Health untuk rumah sakit dan klinik",
+            "intro": "Enigma Health adalah SIMRS yang menyatukan seluruh alur pelayanan rumah sakit, dari pasien mendaftar sampai berkas klaim siap dikirim. Data pasien cukup dicatat sekali di pendaftaran, lalu dipakai bersama oleh poliklinik, rawat inap, IGD, laboratorium, radiologi, farmasi, kasir, dan bagian klaim. Enigma Health disediakan oleh PT Enigma Works Indonesia dan diimplementasikan langsung oleh tim kami, termasuk bridging BPJS Kesehatan dan integrasi SATUSEHAT.",
+            "points": "[[\"Pendaftaran dan antrean\",\"Pendaftaran pasien umum, asuransi, dan JKN dalam satu layar. SEP diterbitkan langsung dari SIMRS, dan antrean poliklinik tersambung ke Mobile JKN.\"],[\"Rawat jalan, rawat inap, dan IGD\",\"Asesmen, CPPT, order penunjang, resep, dan tindakan dicatat di unit masing-masing. Pindah ruang, pulang, dan rujukan tercatat rapi dalam riwayat pasien.\"],[\"Rekam medis elektronik (RME)\",\"Satu riwayat pasien yang lengkap dan mudah dicari dokter maupun perawat. Data kunjungan dikirim ke SATUSEHAT sesuai ketentuan Kementerian Kesehatan.\"],[\"Penunjang, farmasi, dan logistik\",\"Order laboratorium dan radiologi masuk tanpa kertas, hasil kembali ke RME. Resep elektronik terhubung dengan stok obat dan bahan medis habis pakai.\"],[\"Kasir, klaim, dan dashboard manajemen\",\"Tagihan terbentuk otomatis dari layanan yang diberikan. Direksi melihat kunjungan, pendapatan, dan status klaim dari dashboard tanpa menunggu laporan manual.\"],[\"Untuk siapa\",\"Rumah sakit umum dan khusus, klinik pratama dan utama, serta apotek. Modul dan alur kerja diatur sesuai skala dan kebutuhan setiap fasilitas.\"],[\"Cara implementasi\",\"Survei alur kerja, konfigurasi modul, migrasi data, pelatihan per unit, go-live bertahap, lalu pendampingan dan pemeliharaan dengan SLA yang disepakati.\"]]",
+            "faqs": "[[\"Apakah data dari SIMRS lama bisa dipindahkan ke Enigma Health?\",\"Bisa. Kami memetakan data master dan data pasien dari sistem lama, menguji hasil migrasi bersama tim rumah sakit, lalu memindahkannya sebelum go-live agar riwayat pasien tetap tersedia.\"],[\"Berapa lama implementasi SIMRS Enigma Health?\",\"Tergantung jumlah unit, kondisi data lama, dan kesiapan perangkat. Setelah survei, kami menyusun jadwal tertulis per tahap sehingga rumah sakit tahu kapan setiap unit mulai memakai sistem.\"],[\"Apakah Enigma Health sudah terhubung ke BPJS Kesehatan dan SATUSEHAT?\",\"Ya. Bridging BPJS Kesehatan dan integrasi SATUSEHAT menjadi bagian dari implementasi, termasuk pendampingan uji coba sampai berjalan di lingkungan produksi.\"],[\"Bagaimana dengan klinik dan apotek?\",\"Tersedia versi Enigma Health yang lebih ringkas untuk klinik dan apotek, tetap dengan rekam medis elektronik dan pengiriman data ke SATUSEHAT.\"],[\"Siapa yang menangani kendala setelah go-live?\",\"Tim Enigma Works Indonesia. Helpdesk, pemantauan, dan pembaruan sistem diatur dalam kontrak pemeliharaan dengan waktu respons yang jelas.\"]]",
+            "sort": 1,
+            "is_active": 1,
+            "created_at": "2026-10-27 07:25:04",
+            "updated_at": "2026-11-05 03:54:05"
+        },
+        {
+            "slug": "bridging-bpjs",
+            "group": "software",
+            "layer": "Integrasi",
+            "name": "Bridging BPJS Kesehatan",
+            "short": "Penerbitan SEP, antrean online, dan data klaim pasien JKN langsung dari SIMRS, tanpa mengetik ulang di aplikasi BPJS.",
+            "badge": null,
+            "icon": "pulse",
+            "tags": "[\"V-Claim\",\"SEP\",\"Antrean online\",\"Mobile JKN\"]",
+            "seo_title": "Bridging BPJS Kesehatan: SEP, V-Claim, dan Antrean Online",
+            "seo_description": "Bridging BPJS Kesehatan untuk rumah sakit dan klinik: SEP dari SIMRS, V-Claim, dan antrean online Mobile JKN. Melayani Medan dan Sumatera Utara.",
+            "h1": "Bridging BPJS Kesehatan untuk rumah sakit",
+            "intro": "Tanpa bridging, petugas pendaftaran mengetik data pasien JKN dua kali: di aplikasi BPJS dan di SIMRS. Antrean memanjang, risiko salah input meningkat, dan berkas klaim sering tidak lengkap. Kami menghubungkan SIMRS dengan layanan BPJS Kesehatan sehingga data cukup dicatat sekali. Bridging sudah menjadi bagian dari setiap implementasi Enigma Health, dan juga bisa dikerjakan untuk SIMRS lain selama sistemnya dapat dikembangkan.",
+            "points": "[[\"SEP langsung dari SIMRS\",\"Petugas memeriksa kepesertaan, rujukan, dan menerbitkan SEP tanpa berpindah aplikasi. Nomor SEP tersimpan otomatis di data kunjungan pasien.\"],[\"Antrean online Mobile JKN\",\"Jadwal dokter dan kuota poliklinik tersambung, sehingga pasien JKN dapat mengambil antrean dari Mobile JKN dan statusnya diperbarui dari SIMRS.\"],[\"Data klaim lebih rapi\",\"Diagnosis, tindakan, dan dokumen pendukung tersusun dari data pelayanan di SIMRS, sehingga petugas klaim tidak lagi mengumpulkan berkas secara manual.\"],[\"Pemetaan data master\",\"Kode poliklinik, dokter, dan ruang perawatan di SIMRS dipetakan ke referensi BPJS. Langkah ini mencegah sebagian besar kegagalan saat bridging berjalan.\"],[\"Uji coba dan pemantauan\",\"Alur diuji bersama petugas sebelum go-live, lalu koneksi dipantau agar gangguan cepat terdeteksi dan ditangani.\"],[\"Tanpa harus mengganti SIMRS\",\"Bila rumah sakit belum siap berganti sistem, bridging dapat dikerjakan pada SIMRS yang sudah berjalan selama sistem itu bisa dikembangkan. Bila sudah saatnya berganti, bridging langsung tersedia di Enigma Health.\"]]",
+            "faqs": "[[\"Berapa lama proses bridging BPJS Kesehatan?\",\"Tergantung kondisi SIMRS dan kelengkapan kredensial dari BPJS Kesehatan. Kami memberikan estimasi waktu tertulis setelah survei awal.\"],[\"Apakah SIMRS lama kami bisa di-bridging?\",\"Bisa, selama SIMRS tersebut dapat dikembangkan atau menyediakan akses integrasi. Kami menilainya saat survei sebelum memberikan penawaran.\"],[\"Apa yang perlu disiapkan rumah sakit?\",\"Umumnya kredensial dari BPJS Kesehatan, akses ke server SIMRS, data master poliklinik dan dokter yang rapi, serta petugas yang dapat menguji alur pendaftaran hingga klaim.\"],[\"Bagaimana jika layanan BPJS sedang gangguan?\",\"Pelayanan tetap berjalan. Kami menyiapkan prosedur cadangan bersama rumah sakit, lalu data yang tertunda dikirim ulang setelah layanan kembali normal.\"],[\"Apakah petugas perlu pelatihan ulang?\",\"Ya, tetapi singkat. Kami melatih petugas pendaftaran, poliklinik, dan klaim sesuai alur baru, termasuk kasus khusus seperti rujukan balik, pasien kontrol, dan perubahan kelas rawat.\"],[\"Bagaimana memantau bridging setelah berjalan?\",\"Kami memantau koneksi dan respons layanan BPJS Kesehatan. Bila ada kegagalan berulang, misalnya karena perubahan referensi dari BPJS, pemetaan disesuaikan dan rumah sakit diberi tahu.\"]]",
+            "sort": 2,
+            "is_active": 1,
+            "created_at": "2026-10-27 07:25:04",
+            "updated_at": "2026-11-05 03:58:38"
+        },
+        {
+            "slug": "integrasi-satusehat",
+            "group": "software",
+            "layer": "Integrasi",
+            "name": "Integrasi SATUSEHAT",
+            "short": "Data rekam medis elektronik terkirim ke SATUSEHAT Kementerian Kesehatan, untuk rumah sakit maupun klinik.",
+            "badge": null,
+            "icon": "plus",
+            "tags": "[\"Rekam medis elektronik\",\"Kemenkes\",\"RME klinik\",\"Rumah sakit dan klinik\"]",
+            "seo_title": "Integrasi SATUSEHAT dan Rekam Medis Elektronik Klinik & RS",
+            "seo_description": "Integrasi SATUSEHAT untuk rumah sakit dan klinik: kredensial, pemetaan data RME, uji sandbox, sampai pengiriman rutin. Dampingan tim di Medan dan Sumut.",
+            "h1": "Integrasi SATUSEHAT untuk rumah sakit dan klinik",
+            "intro": "Fasilitas pelayanan kesehatan wajib menyelenggarakan rekam medis elektronik dan terhubung ke SATUSEHAT, platform milik Kementerian Kesehatan. Bagi banyak rumah sakit dan klinik, tantangannya bukan di kemauan, tetapi di data: lokasi, tenaga kesehatan, dan kode diagnosis yang belum rapi. Kami membantu dari pendaftaran kredensial, pemetaan data dari SIMRS, uji kirim di sandbox, hingga pemantauan pengiriman rutin.",
+            "points": "[[\"Persiapan kredensial\",\"Pendampingan pendaftaran organisasi dan pengaturan akses ke lingkungan uji dan produksi SATUSEHAT.\"],[\"Data master yang rapi\",\"Lokasi, unit layanan, dan tenaga kesehatan disesuaikan dengan data di SATUSEHAT, karena kesalahan di sini menjadi penyebab gagal kirim yang paling umum.\"],[\"Pemetaan data RME\",\"Kunjungan, diagnosis, tindakan, pemeriksaan, dan obat dari SIMRS dipetakan ke format dan kode yang diminta SATUSEHAT.\"],[\"Uji kirim dan pemantauan\",\"Data diuji di sandbox sebelum dikirim rutin. Setelah berjalan, kegagalan kirim dipantau dan ditangani agar data tidak tertinggal.\"],[\"RME klinik\",\"Untuk klinik dan apotek, tersedia Enigma Health versi ringkas yang sudah membawa rekam medis elektronik dan pengiriman ke SATUSEHAT.\"],[\"Untuk rumah sakit yang sudah punya SIMRS\",\"Bila SIMRS yang berjalan belum mendukung SATUSEHAT, kami menilai apakah integrasi bisa ditambahkan ke sistem itu, atau lebih efisien beralih ke Enigma Health yang sudah membawa integrasinya.\"],[\"Pendampingan petugas\",\"Petugas pendaftaran dan dokter dilatih mengisi data yang dibutuhkan SATUSEHAT, seperti NIK pasien dan kode diagnosis, sehingga data sudah lengkap sejak dicatat.\"]]",
+            "faqs": "[[\"Apakah klinik juga bisa terintegrasi ke SATUSEHAT?\",\"Bisa. Kami membantu klinik mengirim data rekam medis elektronik ke SATUSEHAT, mulai dari pendaftaran kredensial sampai pengujian pengiriman data.\"],[\"Bagaimana jika pengiriman data gagal?\",\"Kami membaca pesan kesalahan dari SATUSEHAT, memperbaiki pemetaan atau data master, lalu mengirim ulang data yang gagal.\"],[\"Apakah SIMRS selain Enigma Health bisa diintegrasikan?\",\"Bisa, selama SIMRS tersebut dapat dikembangkan atau menyediakan akses ke datanya. Kelayakannya kami nilai saat survei.\"],[\"Data apa saja yang dikirim ke SATUSEHAT?\",\"Cakupan data mengikuti ketentuan dan tahapan dari Kementerian Kesehatan. Umumnya dimulai dari data kunjungan dan diagnosis, lalu bertambah sesuai kesiapan fasilitas.\"],[\"Berapa lama sampai data terkirim ke lingkungan produksi?\",\"Tergantung kesiapan kredensial dan kerapian data master. Kami memberikan estimasi tertulis setelah memeriksa data lokasi, tenaga kesehatan, dan contoh data kunjungan dari SIMRS.\"],[\"Siapa yang memantau setelah integrasi berjalan?\",\"Tim kami, sebagai bagian dari kontrak maintenance. Data yang gagal terkirim dilaporkan, diperbaiki, lalu dikirim ulang agar tidak menumpuk.\"]]",
+            "sort": 3,
+            "is_active": 1,
+            "created_at": "2026-10-27 07:25:04",
+            "updated_at": "2026-11-05 03:58:38"
+        },
+        {
+            "slug": "aplikasi-rumah-sakit",
+            "group": "software",
+            "layer": "Aplikasi",
+            "name": "Aplikasi rumah sakit custom",
+            "short": "Dashboard rumah sakit, pendaftaran online, dan pelaporan yang dibuat sesuai alur kerja, terhubung ke Enigma Health.",
+            "badge": null,
+            "icon": "monitor",
+            "tags": "[\"Dashboard rumah sakit\",\"Pendaftaran online\",\"Pelaporan\",\"Integrasi antarsistem\"]",
+            "seo_title": "Aplikasi Rumah Sakit Custom: Dashboard & Pendaftaran Online",
+            "seo_description": "Pembuatan aplikasi rumah sakit custom yang terhubung ke SIMRS: dashboard manajemen, pendaftaran online, pelaporan internal, dan integrasi antarsistem.",
+            "h1": "Aplikasi rumah sakit custom sesuai alur kerja Anda",
+            "intro": "Setiap rumah sakit punya kebutuhan yang tidak selalu tersedia di SIMRS standar: laporan khusus untuk direksi, pendaftaran online dengan tampilan sendiri, atau penghubung ke sistem lain yang sudah dipakai. Kami membangun aplikasi tambahan yang mengambil data dari Enigma Health, sehingga data tetap berasal dari satu sumber dan petugas tidak mencatat ulang.",
+            "points": "[[\"Dashboard rumah sakit\",\"Kunjungan, pendapatan, tingkat hunian, dan status klaim dalam satu tampilan yang mudah dibaca direksi, diperbarui dari data SIMRS.\"],[\"Pendaftaran online\",\"Aplikasi web atau mobile untuk pendaftaran, jadwal dokter, dan informasi layanan, dengan identitas visual rumah sakit sendiri.\"],[\"Pelaporan internal\",\"Laporan unit yang selama ini disusun manual di spreadsheet dibuat otomatis dan bisa diunduh kapan saja.\"],[\"Integrasi antarsistem\",\"Menghubungkan SIMRS dengan aplikasi laboratorium, radiologi, HR, atau akuntansi yang sudah berjalan di rumah sakit.\"],[\"Kepemilikan kebutuhan yang jelas\",\"Kebutuhan ditulis dan disetujui sebelum pengembangan, lalu setiap tahap diuji bersama pengguna di unit terkait.\"],[\"Standar keamanan yang sama\",\"Aplikasi custom memakai pengaturan hak akses dan pencatatan aktivitas yang sama dengan SIMRS, sehingga data pasien tetap terlindungi.\"],[\"Dokumentasi dan serah terima\",\"Setiap aplikasi diserahkan beserta panduan pengguna dan dokumentasi teknis, agar tim IT rumah sakit memahami cara kerjanya.\"]]",
+            "faqs": "[[\"Apakah aplikasi bisa terhubung dengan SIMRS yang sudah ada?\",\"Bisa, selama SIMRS menyediakan akses integrasi. Untuk Enigma Health, integrasi sudah kami siapkan sejak awal.\"],[\"Berapa lama membuat aplikasi custom?\",\"Tergantung cakupannya. Kami memecah pekerjaan menjadi tahap kecil sehingga bagian yang paling dibutuhkan bisa dipakai lebih dulu.\"],[\"Apakah rumah sakit bisa meminta perubahan setelah aplikasi jadi?\",\"Bisa. Perubahan kecil ditangani dalam kontrak pemeliharaan, sedangkan pengembangan baru dibahas sebagai tahap terpisah.\"],[\"Di mana aplikasi dijalankan?\",\"Di server rumah sakit atau di cloud, sesuai kebijakan rumah sakit tentang penyimpanan data pasien.\"],[\"Contoh aplikasi apa saja yang bisa dibuat?\",\"Misalnya dashboard direksi, pendaftaran online dengan tampilan rumah sakit, laporan indikator mutu, jadwal jaga, atau penghubung data ke sistem laboratorium dan akuntansi. Kebutuhan dibahas dulu sebelum diputuskan dibuat.\"],[\"Bagaimana biaya pembuatan aplikasi dihitung?\",\"Berdasarkan cakupan fitur yang disepakati tertulis. Kami menyarankan memulai dari kebutuhan paling penting, lalu menambah fitur di tahap berikutnya setelah aplikasi dipakai.\"],[\"Apakah data tetap menjadi milik rumah sakit?\",\"Ya, data selalu milik rumah sakit. Ketentuan hak atas aplikasi dan kode program diatur dalam perjanjian kerja sebelum pengembangan dimulai.\"]]",
+            "sort": 4,
+            "is_active": 1,
+            "created_at": "2026-10-27 07:25:04",
+            "updated_at": "2026-11-05 03:58:38"
+        },
+        {
+            "slug": "hardware-jaringan",
+            "group": "infra",
+            "layer": "Infrastruktur",
+            "name": "Hardware dan jaringan",
+            "short": "Server rumah sakit, komputer, printer, LAN, dan Wi-Fi yang dihitung dari kebutuhan SIMRS, diadakan melalui principal resmi.",
+            "badge": null,
+            "icon": "server",
+            "tags": "[\"Server rumah sakit\",\"Jaringan\",\"Pengadaan komputer\",\"Wi-Fi\"]",
+            "seo_title": "Jaringan Rumah Sakit dan Server SIMRS lewat Principal Resmi",
+            "seo_description": "Jaringan rumah sakit, server SIMRS, dan pengadaan komputer RS melalui principal resmi. Dihitung dari kebutuhan pengguna dan unit. Konsultasi gratis.",
+            "h1": "Jaringan rumah sakit, server, dan perangkat untuk SIMRS",
+            "intro": "SIMRS hanya secepat perangkat dan jaringan yang menjalankannya. Pendaftaran yang lambat sering bukan karena aplikasinya, tetapi karena server yang kekurangan kapasitas atau jaringan antarlantai yang tidak stabil. Kami menghitung kebutuhan perangkat dari jumlah unit dan pengguna Enigma Health, lalu menyediakan dan memasangnya melalui principal resmi, sehingga garansi dan suku cadang terjamin.",
+            "points": "[[\"Server rumah sakit\",\"Spesifikasi server dan penyimpanan disesuaikan dengan beban SIMRS, jumlah pengguna, dan rencana pertumbuhan data beberapa tahun ke depan.\"],[\"Pengadaan komputer dan perangkat unit\",\"Komputer, printer label, printer gelang pasien, pemindai, dan perangkat pendukung lain untuk setiap unit pelayanan.\"],[\"Jaringan LAN dan Wi-Fi\",\"Desain dan instalasi jaringan antargedung dan antarlantai, dengan pemisahan jaringan pelayanan, administrasi, dan tamu.\"],[\"Garansi resmi\",\"Perangkat diadakan melalui principal dan distributor resmi, sehingga garansi dan dukungan purna jual jelas.\"],[\"Dokumentasi\",\"Denah jaringan dan daftar perangkat diserahkan ke tim IT rumah sakit agar pemeliharaan lebih mudah.\"],[\"Survei lokasi\",\"Sebelum memberi penawaran, kami memeriksa ruang server, jalur kabel, titik jaringan, dan perangkat yang sudah ada, sehingga kebutuhan dihitung dari kondisi nyata.\"],[\"Listrik dan cadangan daya\",\"UPS untuk server dan perangkat jaringan utama, agar SIMRS tetap berjalan saat listrik padam sesaat dan data tidak rusak.\"]]",
+            "faqs": "[[\"Apakah perangkat yang sudah ada masih bisa dipakai?\",\"Bisa. Kami memeriksa perangkat lama terlebih dahulu dan hanya menyarankan penggantian yang benar-benar diperlukan.\"],[\"Lebih baik server di rumah sakit atau di cloud?\",\"Keduanya bisa. Pilihannya bergantung pada kualitas internet, kebijakan penyimpanan data, dan anggaran. Kami menjelaskan kelebihan dan risikonya sebelum rumah sakit memutuskan.\"],[\"Apakah pemasangan jaringan mengganggu pelayanan?\",\"Pekerjaan dijadwalkan bertahap per area dan di luar jam sibuk, sehingga pelayanan tetap berjalan.\"],[\"Berapa spesifikasi server yang dibutuhkan untuk SIMRS?\",\"Tergantung jumlah pengguna bersamaan, unit yang memakai sistem, dan volume data. Kami menghitungnya setelah survei dan menyisakan ruang untuk pertumbuhan beberapa tahun ke depan.\"],[\"Apakah rumah sakit bisa membeli perangkat sendiri?\",\"Bisa. Kami memberikan spesifikasi minimum yang dibutuhkan, lalu membantu memeriksa perangkat yang dibeli rumah sakit sebelum dipasang.\"],[\"Apakah jaringan rumah sakit perlu dipisah?\",\"Sebaiknya ya. Jaringan pelayanan, administrasi, dan tamu dipisahkan agar lalu lintas internet pengunjung tidak mengganggu SIMRS, dan perangkat yang terhubung ke jaringan pelayanan tetap aman.\"],[\"Bagaimana dengan garansi dan perbaikan?\",\"Perangkat yang diadakan melalui kami memakai garansi resmi dari principal. Penanganan kerusakan dibantu tim kami sesuai kontrak maintenance.\"]]",
+            "sort": 5,
+            "is_active": 1,
+            "created_at": "2026-10-27 07:25:04",
+            "updated_at": "2026-11-05 03:58:38"
+        },
+        {
+            "slug": "keamanan-data",
+            "group": "infra",
+            "layer": "Keamanan",
+            "name": "Keamanan data dan backup",
+            "short": "Backup SIMRS terjadwal, antivirus terpusat, dan pengaturan hak akses untuk melindungi data pasien.",
+            "badge": null,
+            "icon": "shield",
+            "tags": "[\"Backup SIMRS\",\"Antivirus\",\"Hak akses\",\"Uji pemulihan\"]",
+            "seo_title": "Keamanan Data Rumah Sakit: Backup SIMRS dan Antivirus",
+            "seo_description": "Keamanan data rumah sakit: backup SIMRS terjadwal, antivirus terpusat, pengaturan hak akses, dan uji pemulihan berkala untuk melindungi data pasien.",
+            "h1": "Keamanan data rumah sakit dan backup SIMRS",
+            "intro": "Data pasien termasuk data pribadi yang sensitif. Serangan ransomware, kerusakan server, atau kesalahan pengguna dapat menghentikan pelayanan dalam hitungan menit. Kami memasang perlindungan berlapis di sekitar Enigma Health dan server rumah sakit, lalu memastikan data selalu dapat dipulihkan ketika terjadi masalah.",
+            "points": "[[\"Backup SIMRS terjadwal\",\"Backup otomatis database SIMRS dengan salinan di lokasi terpisah, mengikuti prinsip 3-2-1.\"],[\"Antivirus rumah sakit\",\"Antivirus untuk seluruh komputer dan server, dipantau dari satu konsol sehingga perangkat yang bermasalah cepat terlihat.\"],[\"Pengaturan hak akses\",\"Hak akses pengguna diatur sesuai peran, sehingga data pasien hanya dibuka oleh pihak yang berwenang dan aktivitasnya tercatat.\"],[\"Uji pemulihan berkala\",\"Backup diuji dengan pemulihan nyata secara berkala, karena backup yang belum pernah dipulihkan belum tentu bisa dipakai.\"],[\"Prosedur saat insiden\",\"Langkah yang dilakukan staf ketika sistem terganggu disusun dan dilatihkan, sehingga pelayanan tetap berjalan.\"],[\"Pembaruan sistem\",\"Sistem operasi dan aplikasi di server dan komputer diperbarui secara terjadwal untuk menutup celah keamanan yang sudah diketahui.\"],[\"Pelatihan kesadaran keamanan\",\"Staf dilatih mengenali tautan dan lampiran mencurigakan, karena banyak serangan masuk lewat email atau pesan yang tampak biasa.\"]]",
+            "faqs": "[[\"Seberapa sering backup SIMRS sebaiknya dilakukan?\",\"Backup harian adalah batas minimum untuk database SIMRS. Jadwal tepatnya disesuaikan dengan volume transaksi rumah sakit.\"],[\"Apakah backup di cloud aman?\",\"Aman bila data dienkripsi dan aksesnya dibatasi. Salinan di cloud juga melindungi rumah sakit dari kerusakan fisik di lokasi.\"],[\"Apa yang harus dilakukan bila terkena ransomware?\",\"Putuskan perangkat yang terdampak dari jaringan, hubungi tim IT, dan jangan membayar tebusan. Pemulihan dilakukan dari backup yang bersih.\"],[\"Apa itu aturan backup 3-2-1?\",\"Simpan minimal tiga salinan data, di dua jenis media penyimpanan, dengan satu salinan di lokasi terpisah. Penjelasan lengkapnya ada di artikel blog kami tentang backup SIMRS.\"],[\"Apakah keamanan data berkaitan dengan pelindungan data pribadi?\",\"Ya. Data kesehatan termasuk data pribadi yang bersifat spesifik menurut Undang-Undang Pelindungan Data Pribadi, sehingga rumah sakit perlu mengatur akses, penyimpanan, dan penanganan insiden dengan serius.\"],[\"Berapa lama data bisa dipulihkan bila server rusak?\",\"Tergantung jenis backup dan ukuran data. Target waktu pemulihan disepakati di awal, lalu dibuktikan lewat uji pemulihan berkala.\"],[\"Apakah antivirus gratis sudah cukup?\",\"Untuk rumah sakit, sebaiknya tidak. Antivirus terpusat memungkinkan tim IT melihat kondisi semua perangkat dari satu konsol dan bertindak cepat bila ada ancaman.\"]]",
+            "sort": 6,
+            "is_active": 1,
+            "created_at": "2026-10-27 07:25:04",
+            "updated_at": "2026-11-05 03:58:38"
+        },
+        {
+            "slug": "maintenance-sla",
+            "group": "infra",
+            "layer": "Pendampingan",
+            "name": "Maintenance dan SLA",
+            "short": "Helpdesk SIMRS, pemantauan sistem, pembaruan rutin, dan kunjungan ke lokasi dengan waktu respons yang disepakati.",
+            "badge": null,
+            "icon": "clock",
+            "tags": "[\"Helpdesk SIMRS\",\"SLA\",\"Pemantauan\",\"Kunjungan lokasi\"]",
+            "seo_title": "Maintenance IT Rumah Sakit dengan SLA dan Helpdesk SIMRS",
+            "seo_description": "Maintenance IT rumah sakit dengan SLA tertulis: helpdesk SIMRS, pemantauan BPJS dan SATUSEHAT, pembaruan rutin, dan kunjungan ke lokasi di Sumatera Utara.",
+            "h1": "Maintenance IT rumah sakit dengan SLA yang jelas",
+            "intro": "Rumah sakit beroperasi 24 jam, sehingga gangguan sistem harus segera ditangani. Setelah Enigma Health berjalan, pekerjaan belum selesai: pengguna baru perlu dilatih, aturan BPJS dan SATUSEHAT berubah, dan perangkat perlu diperiksa. Dengan kontrak maintenance, rumah sakit tahu siapa yang dihubungi, berapa lama waktu responsnya, dan apa saja yang dikerjakan setiap bulan.",
+            "points": "[[\"Helpdesk SIMRS\",\"Saluran bantuan melalui WhatsApp, telepon, dan tiket untuk staf rumah sakit, dengan pencatatan setiap laporan sampai selesai.\"],[\"Waktu respons dalam SLA\",\"Tingkat prioritas dan waktu respons ditulis dalam kontrak, sehingga kendala yang menghentikan pelayanan ditangani lebih dulu.\"],[\"Pemantauan sistem\",\"Server, backup, serta koneksi BPJS Kesehatan dan SATUSEHAT dipantau agar gangguan terdeteksi sebelum dilaporkan pengguna.\"],[\"Pembaruan rutin\",\"Pembaruan aplikasi dan penyesuaian aturan dijadwalkan di luar jam sibuk agar tidak mengganggu pelayanan.\"],[\"Laporan dan kunjungan berkala\",\"Laporan bulanan berisi kendala dan tindak lanjutnya, ditambah kunjungan ke lokasi sesuai kontrak.\"],[\"Pelatihan pengguna baru\",\"Staf baru dan pengguna yang pindah unit dilatih agar tetap memakai SIMRS dengan benar, tanpa menunggu pelatihan besar berikutnya.\"],[\"Penyesuaian aturan BPJS dan SATUSEHAT\",\"Bila ada perubahan ketentuan atau referensi dari BPJS Kesehatan maupun SATUSEHAT, penyesuaian di sistem dikerjakan dalam kontrak.\"],[\"Pemeriksaan backup\",\"Status backup diperiksa rutin dan uji pemulihan dijadwalkan, sehingga rumah sakit yakin data bisa dipulihkan bila diperlukan.\"]]",
+            "faqs": "[[\"Apa saja yang tercakup dalam kontrak maintenance?\",\"Pemantauan sistem, perbaikan, pembaruan, helpdesk, dan waktu respons yang disepakati dalam SLA. Rinciannya disesuaikan dengan kebutuhan rumah sakit.\"],[\"Apakah helpdesk tersedia di luar jam kerja?\",\"Cakupan jam layanan diatur dalam SLA. Untuk gangguan yang menghentikan pelayanan, jalur darurat disepakati sejak awal.\"],[\"Apakah maintenance bisa untuk sistem yang bukan dari kami?\",\"Bisa, setelah kami memeriksa kondisi sistem dan dokumentasinya. Hasil pemeriksaan menentukan cakupan yang bisa kami tanggung.\"],[\"Bagaimana cara melaporkan kendala?\",\"Melalui WhatsApp, telepon, atau tiket. Setiap laporan diberi nomor dan prioritas, lalu rumah sakit bisa memantau statusnya sampai selesai.\"],[\"Bagaimana prioritas kendala ditentukan?\",\"Kendala yang menghentikan pelayanan, misalnya pendaftaran tidak bisa diakses, menjadi prioritas tertinggi. Kendala yang mengganggu sebagian fungsi atau berupa pertanyaan ditangani sesuai urutan dalam SLA.\"],[\"Apakah ada laporan rutin untuk direksi?\",\"Ada. Laporan bulanan berisi jumlah laporan, waktu penyelesaian, kendala berulang, dan rekomendasi perbaikan, sehingga direksi bisa menilai kinerja sistem dan layanan kami.\"],[\"Berapa lama masa kontrak maintenance?\",\"Masa kontrak disepakati bersama dan dapat diperpanjang. Cakupan dan biayanya ditinjau di akhir periode sesuai kebutuhan rumah sakit.\"]]",
+            "sort": 7,
+            "is_active": 1,
+            "created_at": "2026-10-27 07:25:04",
+            "updated_at": "2026-11-05 03:58:38"
+        },
+        {
+            "slug": "solusi-mekari",
+            "group": "business",
+            "layer": "Bisnis",
+            "name": "Solusi Mekari",
+            "short": "HR dan payroll rumah sakit, akuntansi, serta komunikasi pasien bersama partner resmi Mekari.",
+            "badge": "Partner resmi",
+            "icon": "building",
+            "tags": "[\"HR dan payroll\",\"Akuntansi\",\"Komunikasi pasien\",\"Partner Mekari\"]",
+            "seo_title": "Mekari untuk Rumah Sakit: HR, Payroll, dan Akuntansi RS",
+            "seo_description": "Mekari untuk rumah sakit bersama partner resmi Mekari: HR dan payroll rumah sakit, jadwal shift, akuntansi, dan komunikasi pasien. Konsultasi gratis.",
+            "h1": "Mekari untuk rumah sakit: HR, payroll, dan keuangan",
+            "intro": "Pelayanan pasien ditangani Enigma Health, tetapi administrasi di belakangnya juga perlu rapi: jadwal shift ratusan karyawan, penggajian dengan banyak komponen tunjangan, dan laporan keuangan. Sebagai partner resmi Mekari, kami membantu rumah sakit memilih produk Mekari yang tepat, menerapkannya, dan menghubungkannya dengan operasional rumah sakit.",
+            "points": "[[\"HR dan payroll rumah sakit\",\"Absensi, cuti, jadwal shift, lembur, dan penggajian karyawan dalam satu sistem, dengan komponen tunjangan yang khas rumah sakit.\"],[\"Akuntansi\",\"Pencatatan keuangan dan laporan yang lebih cepat disusun, dengan data pendapatan yang dapat dihubungkan dari SIMRS.\"],[\"Komunikasi pasien\",\"Pengelolaan pesan dan layanan pelanggan dari berbagai kanal, sehingga pertanyaan pasien tidak tercecer.\"],[\"Pendampingan implementasi\",\"Pengaturan awal, migrasi data karyawan dan akun, serta pelatihan pengguna di bagian SDM dan keuangan.\"],[\"Terhubung dengan Enigma Health\",\"Data pendapatan dan transaksi dari SIMRS dapat dihubungkan ke akuntansi, sehingga pencatatan keuangan tidak diketik ulang.\"],[\"Laporan untuk manajemen\",\"Biaya tenaga kerja dan laporan keuangan tersedia lebih cepat, sehingga direksi bisa membandingkannya dengan pendapatan pelayanan.\"]]",
+            "faqs": "[[\"Apakah Mekari bisa digunakan bersama SIMRS?\",\"Bisa. Mekari menangani administrasi bisnis, sedangkan Enigma Health menangani pelayanan. Keduanya dapat dihubungkan sesuai kebutuhan.\"],[\"Produk Mekari apa yang cocok untuk rumah sakit?\",\"Tergantung kebutuhan. Umumnya dimulai dari HR dan payroll, lalu akuntansi. Kami membantu memilih setelah memahami proses di rumah sakit.\"],[\"Apakah Enigma Works Indonesia partner resmi Mekari?\",\"Ya. Kami adalah partner resmi Mekari, sehingga implementasi dan pendampingan dilakukan sesuai standar Mekari.\"],[\"Apakah data karyawan lama bisa dipindahkan?\",\"Bisa. Data karyawan, komponen gaji, dan saldo cuti dipindahkan dan diperiksa bersama tim SDM sebelum sistem dipakai.\"],[\"Apakah sistem bisa menangani jadwal shift yang rumit?\",\"Rumah sakit punya pola shift pagi, siang, dan malam dengan banyak pengecualian. Pengaturan jadwal dan aturan lembur dibahas bersama bagian SDM saat implementasi agar sesuai kebijakan rumah sakit.\"],[\"Bagaimana proses pemilihan paket Mekari?\",\"Kami membantu memilih paket yang sesuai dengan jumlah karyawan dan produk yang dibutuhkan, lalu mengurus prosesnya bersama Mekari.\"],[\"Apakah ada pelatihan untuk bagian SDM dan keuangan?\",\"Ada. Pelatihan diberikan per peran, misalnya admin SDM, penyetuju cuti, dan staf keuangan, disertai pendampingan pada periode penggajian pertama.\"],[\"Apakah karyawan bisa melihat slip gaji dan mengajukan cuti sendiri?\",\"Bisa. Karyawan dapat mengakses slip gaji, pengajuan cuti, dan jadwal kerja mereka sendiri, sehingga beban bagian SDM berkurang.\"]]",
+            "sort": 8,
+            "is_active": 1,
+            "created_at": "2026-10-27 07:25:04",
+            "updated_at": "2026-11-05 03:58:38"
+        }
+    ],
+    "cities": [
+        {
+            "slug": "medan",
+            "name": "Medan",
+            "has_page": 1,
+            "is_main": 1,
+            "seo_title": "SIMRS Medan: Enigma Health untuk Rumah Sakit dan Klinik",
+            "seo_description": "SIMRS Medan untuk rumah sakit dan klinik: Enigma Health dengan bridging BPJS Medan, integrasi SATUSEHAT, dan tim yang datang langsung. Konsultasi gratis.",
+            "h1": "SIMRS Medan untuk rumah sakit dan klinik",
+            "intro": "Medan adalah pusat rujukan kesehatan di Sumatera Utara. Rumah sakit swasta, rumah sakit pemerintah, dan klinik di kota ini melayani pasien dari Medan sendiri sekaligus rujukan dari kabupaten di sekitarnya. Volume pasien JKN yang tinggi membuat SIMRS yang stabil dan bridging BPJS yang lancar menjadi kebutuhan sehari-hari, bukan pelengkap.",
+            "body": "Persaingan layanan kesehatan di Medan cukup ketat. Pasien membandingkan lama antrean, kemudahan mendaftar lewat Mobile JKN, dan kecepatan pelayanan di kasir. Banyak rumah sakit masih memakai beberapa aplikasi terpisah untuk pendaftaran, farmasi, dan keuangan, sehingga data pasien dicatat berulang kali dan laporan untuk direksi baru tersedia di akhir bulan. Enigma Health menyatukan alur itu dalam satu SIMRS, dari pendaftaran sampai berkas klaim.\n\nUntuk rumah sakit di Medan, kami biasanya mulai dari survei langsung ke setiap unit: pendaftaran, poliklinik, IGD, rawat inap, penunjang, farmasi, kasir, dan bagian klaim. Hasilnya adalah rancangan tertulis yang memuat modul yang dipakai, data yang dipindahkan dari sistem lama, kebutuhan perangkat dan jaringan, serta jadwal go-live per unit. Bridging BPJS Kesehatan dan integrasi SATUSEHAT dikerjakan dalam proyek yang sama, sehingga rumah sakit tidak perlu mengurus vendor terpisah.\n\nBanyak rumah sakit di Medan sudah memakai SIMRS sejak bertahun-tahun lalu. Bagi mereka, pertanyaannya adalah apakah sistem lama masih bisa dikembangkan atau sudah saatnya diganti. Kami membantu menilainya secara terbuka. Bila SIMRS lama masih layak, bridging BPJS dan integrasi SATUSEHAT bisa dikerjakan pada sistem itu. Bila tidak, data pasien, tarif, dan obat dipindahkan ke Enigma Health dengan uji coba bersama setiap unit sebelum go-live.\n\nKlinik pratama dan klinik utama di Medan juga menghadapi kewajiban rekam medis elektronik dan pengiriman data ke SATUSEHAT. Untuk mereka, tersedia Enigma Health versi ringkas yang lebih cepat diterapkan, tetapi tetap membawa RME, antrean, dan farmasi.\n\nTim kami hadir di lokasi untuk instalasi, pelatihan per unit, dan pendampingan pada minggu-minggu awal setelah go-live. Setelah sistem stabil, dukungan harian dilakukan dari jarak jauh melalui helpdesk, dengan kunjungan berkala sesuai kontrak maintenance.\n\nBagi direksi, manfaat yang paling cepat terasa biasanya ada di laporan. Kunjungan per poliklinik, pendapatan per penjamin, dan status klaim BPJS dapat dilihat dari dashboard setiap hari, tanpa menunggu rekap manual dari setiap unit. Data itu membantu manajemen mengambil keputusan lebih cepat, misalnya menambah jadwal dokter di poliklinik yang antreannya selalu penuh, atau menelusuri penyebab klaim yang dikembalikan.",
+            "nearby": "[\"deli-serdang\",\"binjai\"]",
+            "sort": 1,
+            "created_at": "2026-10-27 07:25:04",
+            "updated_at": "2026-11-05 03:59:07"
+        },
+        {
+            "slug": "deli-serdang",
+            "name": "Deli Serdang",
+            "has_page": 1,
+            "is_main": 0,
+            "seo_title": "SIMRS Deli Serdang: Sistem untuk Rumah Sakit dan Klinik Baru",
+            "seo_description": "SIMRS Deli Serdang untuk rumah sakit dan klinik di Lubuk Pakam dan sekitarnya: Enigma Health, jaringan, bridging BPJS, dan SATUSEHAT sejak hari pertama.",
+            "h1": "SIMRS Deli Serdang untuk rumah sakit dan klinik",
+            "intro": "Deli Serdang mengelilingi Kota Medan dan terus berkembang, dari Lubuk Pakam sebagai ibu kota kabupaten hingga kawasan di sekitar Bandara Kualanamu. Pertumbuhan permukiman ini diikuti oleh rumah sakit dan klinik baru yang perlu siap melayani pasien JKN sejak hari pertama beroperasi.",
+            "body": "Fasilitas kesehatan yang baru dibangun punya keuntungan: sistemnya bisa dirancang dengan benar sejak awal, tanpa beban data lama. Kami dapat menyiapkan semuanya dalam satu proyek, mulai dari jaringan dan perangkat di setiap ruangan, server, SIMRS Enigma Health, sampai bridging BPJS Kesehatan dan integrasi SATUSEHAT. Rumah sakit cukup berurusan dengan satu tim, dan semua komponen diuji bersama sebelum pasien pertama datang.\n\nUrutan pekerjaannya kami sesuaikan dengan jadwal pembangunan dan perizinan. Jaringan dipasang ketika ruangan siap, perangkat diadakan melalui principal resmi, lalu SIMRS dikonfigurasi dengan data master poliklinik, dokter, tarif, dan obat. Pelatihan staf dilakukan sebelum operasional dimulai, sehingga petugas sudah terbiasa saat pelayanan berjalan.\n\nAda beberapa hal yang sering terlambat disiapkan oleh rumah sakit baru: kredensial bridging BPJS Kesehatan, pendaftaran ke SATUSEHAT, serta data master tarif dan obat. Kami menyusun daftar periksa bersama manajemen sejak masa pembangunan, sehingga semuanya siap ketika izin operasional terbit dan kerja sama dengan BPJS Kesehatan dimulai.\n\nRumah sakit yang tumbuh bertahap, misalnya membuka rawat jalan lebih dulu lalu rawat inap, dapat mengaktifkan modul sesuai kesiapan unit. Data pasien tetap menyatu sejak kunjungan pertama, sehingga riwayatnya tersedia ketika unit baru mulai melayani.\n\nUntuk rumah sakit dan klinik di Deli Serdang yang sudah lama beroperasi, kami memulai dengan audit sistem yang ada: aplikasi yang dipakai, kondisi data, perangkat, dan jaringan. Dari situ kami menyarankan mana yang perlu diganti dan mana yang masih layak dipertahankan, agar biaya perubahan tetap masuk akal. Tim kami datang ke lokasi untuk survei, instalasi, dan kunjungan berkala, sementara dukungan harian dilakukan dari jarak jauh.\n\nRumah sakit di Lubuk Pakam dan sekitarnya juga menerima rujukan dari puskesmas di kecamatan yang tersebar luas. Dengan bridging BPJS Kesehatan, data rujukan dibaca langsung saat pendaftaran, dan antrean online Mobile JKN membantu pasien dari kecamatan yang jauh mengatur waktu kedatangan. Dua hal ini mengurangi penumpukan di loket pada pagi hari, sehingga petugas punya waktu lebih untuk memastikan data pasien tercatat lengkap dan benar sejak awal kunjungan.",
+            "nearby": "[\"medan\",\"binjai\"]",
+            "sort": 2,
+            "created_at": "2026-10-27 07:25:04",
+            "updated_at": "2026-11-05 03:59:07"
+        },
+        {
+            "slug": "binjai",
+            "name": "Binjai",
+            "has_page": 1,
+            "is_main": 0,
+            "seo_title": "SIMRS Binjai dan Langkat: Bridging BPJS untuk Pasien JKN",
+            "seo_description": "SIMRS Binjai untuk rumah sakit dan klinik di Binjai dan Langkat: Enigma Health dengan bridging BPJS, antrean Mobile JKN, dan maintenance IT terjadwal.",
+            "h1": "SIMRS Binjai untuk rumah sakit dan klinik di Binjai dan Langkat",
+            "intro": "Binjai berbatasan langsung dengan Medan dan menjadi pintu masuk ke Kabupaten Langkat. Rumah sakit dan klinik di wilayah ini melayani banyak pasien JKN, termasuk pasien dari kecamatan di Langkat yang menempuh perjalanan cukup jauh. Bagi mereka, antrean panjang di loket pendaftaran berarti waktu yang terbuang.",
+            "body": "Masalah yang paling sering kami temui di rumah sakit dengan porsi pasien JKN besar adalah pendaftaran yang lambat. Petugas memeriksa kepesertaan di satu aplikasi, menerbitkan SEP di aplikasi lain, lalu mengetik ulang data di SIMRS. Dengan Enigma Health dan bridging BPJS Kesehatan, seluruh langkah itu dilakukan dari satu layar, dan nomor SEP tersimpan langsung di data kunjungan.\n\nPasien rujukan dari puskesmas dan klinik di Langkat juga lebih mudah dilayani ketika data rujukan dibaca langsung dari layanan BPJS saat pendaftaran. Petugas tidak perlu mengetik ulang nomor rujukan, sehingga kesalahan yang membuat SEP gagal terbit dapat dikurangi. Bagi pasien, artinya waktu tunggu di loket lebih singkat dan kepastian layanan lebih jelas.\n\nAntrean online melalui Mobile JKN membantu pasien dari Langkat mengatur waktu kedatangan. Jadwal dokter dan kuota poliklinik di SIMRS tersambung, sehingga pasien tidak perlu datang subuh hanya untuk mengambil nomor antrean. Bagi rumah sakit, kedatangan pasien menjadi lebih merata sepanjang hari.\n\nKami juga memperhatikan jam sibuk. Di banyak rumah sakit, beban pendaftaran menumpuk di pagi hari. Uji beban dilakukan sebelum go-live agar server dan jaringan mampu melayani semua loket dan poliklinik pada saat bersamaan. Setelah sistem berjalan, berkas klaim pun lebih rapi karena diagnosis, tindakan, dan dokumen pendukung tersusun dari data pelayanan.\n\nKlinik dan apotek di Binjai dapat memakai Enigma Health versi ringkas dengan rekam medis elektronik dan pengiriman data ke SATUSEHAT, tanpa harus menerapkan seluruh modul rumah sakit. Untuk menjaga sistem tetap berjalan, kontrak maintenance mencakup pemantauan koneksi BPJS dan SATUSEHAT, helpdesk untuk staf, serta kunjungan berkala ke lokasi.\n\nBagi manajemen rumah sakit di Binjai, dashboard Enigma Health membantu memantau jumlah kunjungan pasien JKN dan non-JKN, pendapatan per penjamin, serta berkas klaim yang belum lengkap. Laporan yang sebelumnya disusun manual setiap akhir bulan kini dapat dilihat kapan saja. Masalah klaim dapat ditangani sebelum menumpuk, arus kas rumah sakit lebih terjaga, dan direksi dapat membandingkan kinerja setiap poliklinik dari minggu ke minggu.",
+            "nearby": "[\"medan\",\"deli-serdang\"]",
+            "sort": 3,
+            "created_at": "2026-10-27 07:25:04",
+            "updated_at": "2026-11-05 03:59:34"
+        },
+        {
+            "slug": "pematangsiantar",
+            "name": "Pematangsiantar",
+            "has_page": 1,
+            "is_main": 0,
+            "seo_title": "SIMRS Pematangsiantar: Dukungan Jarak Jauh untuk Simalungun",
+            "seo_description": "SIMRS Pematangsiantar untuk rumah sakit dan klinik di Simalungun: Enigma Health, bridging BPJS, SATUSEHAT, pemantauan jarak jauh, dan kunjungan berkala.",
+            "h1": "SIMRS Pematangsiantar untuk rumah sakit di Pematangsiantar dan Simalungun",
+            "intro": "Pematangsiantar adalah salah satu kota utama di jalur tengah Sumatera Utara dan menjadi rujukan bagi wilayah Simalungun. Karena letaknya cukup jauh dari Medan, rumah sakit di sini membutuhkan SIMRS yang stabil dan dukungan jarak jauh yang andal, bukan sistem yang selalu menunggu teknisi datang.",
+            "body": "Kami merancang implementasi di Pematangsiantar dengan prinsip sebisa mungkin mandiri di lokasi. Server dan jaringan disiapkan dengan cadangan yang memadai, backup berjalan otomatis, dan staf IT rumah sakit dilatih untuk menangani kendala ringan sendiri. Tim kami tetap hadir di lokasi untuk survei, instalasi Enigma Health, pelatihan per unit, dan pendampingan pada masa go-live.\n\nKoneksi internet mendapat perhatian khusus, karena bridging BPJS Kesehatan dan pengiriman data ke SATUSEHAT membutuhkan akses yang stabil. Kami menyarankan jalur cadangan dari penyedia yang berbeda, sehingga pendaftaran pasien JKN tidak terhenti ketika satu jalur bermasalah.\n\nSetelah sistem berjalan, pemantauan dilakukan dari jarak jauh. Server, backup, serta koneksi ke BPJS Kesehatan dan SATUSEHAT dipantau, sehingga gangguan sering kali sudah terdeteksi sebelum petugas melapor. Sebagian besar kendala aplikasi diselesaikan melalui helpdesk dan akses jarak jauh yang aman, dengan prosedur yang disepakati bersama rumah sakit.\n\nUntuk masalah perangkat atau jaringan yang perlu ditangani langsung, kunjungan ke lokasi dijadwalkan sesuai SLA. Sebelum proyek dimulai, kami menyepakati penanggung jawab di lokasi, jalur komunikasi, dan jadwal kunjungan berkala. Kunjungan itu dipakai untuk memeriksa perangkat, menguji pemulihan backup, dan melatih pengguna baru.\n\nRumah sakit dan klinik di Simalungun dan sekitarnya dapat memakai pola yang sama. Klinik dapat memulai dengan Enigma Health versi ringkas yang membawa rekam medis elektronik dan pengiriman data ke SATUSEHAT. Bila layanan bertambah, klinik dapat beralih ke modul yang lebih lengkap tanpa mengulang pencatatan data pasien dari awal.\n\nStaf IT rumah sakit menjadi mitra utama kami di lokasi. Mereka mendapat pelatihan khusus tentang cara memeriksa status server, memulai ulang layanan yang berhenti, dan membaca laporan backup. Dengan bekal itu, banyak kendala kecil selesai dalam hitungan menit tanpa menunggu tim kami terhubung.\n\nBackup database Enigma Health disimpan di lebih dari satu tempat, termasuk salinan di luar gedung rumah sakit. Bila terjadi kerusakan perangkat atau bencana di lokasi, data pasien tetap dapat dipulihkan dan pelayanan bisa kembali berjalan secepat mungkin.",
+            "nearby": "[\"medan\",\"deli-serdang\"]",
+            "sort": 4,
+            "created_at": "2026-10-27 07:25:04",
+            "updated_at": "2026-11-05 03:59:34"
+        },
+        {
+            "slug": "langkat",
+            "name": "Langkat",
+            "has_page": 0,
+            "is_main": 0,
+            "seo_title": null,
+            "seo_description": null,
+            "h1": null,
+            "intro": null,
+            "body": null,
+            "nearby": null,
+            "sort": 5,
+            "created_at": "2026-10-27 07:25:04",
+            "updated_at": "2026-10-27 07:25:04"
+        },
+        {
+            "slug": "serdang-bedagai",
+            "name": "Serdang Bedagai",
+            "has_page": 0,
+            "is_main": 0,
+            "seo_title": null,
+            "seo_description": null,
+            "h1": null,
+            "intro": null,
+            "body": null,
+            "nearby": null,
+            "sort": 6,
+            "created_at": "2026-10-27 07:25:04",
+            "updated_at": "2026-10-27 07:25:04"
+        },
+        {
+            "slug": "tebing-tinggi",
+            "name": "Tebing Tinggi",
+            "has_page": 0,
+            "is_main": 0,
+            "seo_title": null,
+            "seo_description": null,
+            "h1": null,
+            "intro": null,
+            "body": null,
+            "nearby": null,
+            "sort": 7,
+            "created_at": "2026-10-27 07:25:04",
+            "updated_at": "2026-10-27 07:25:04"
+        },
+        {
+            "slug": "simalungun",
+            "name": "Simalungun",
+            "has_page": 0,
+            "is_main": 0,
+            "seo_title": null,
+            "seo_description": null,
+            "h1": null,
+            "intro": null,
+            "body": null,
+            "nearby": null,
+            "sort": 8,
+            "created_at": "2026-10-27 07:25:04",
+            "updated_at": "2026-10-27 07:25:04"
+        },
+        {
+            "slug": "karo",
+            "name": "Karo",
+            "has_page": 0,
+            "is_main": 0,
+            "seo_title": null,
+            "seo_description": null,
+            "h1": null,
+            "intro": null,
+            "body": null,
+            "nearby": null,
+            "sort": 9,
+            "created_at": "2026-10-27 07:25:04",
+            "updated_at": "2026-10-27 07:25:04"
+        },
+        {
+            "slug": "asahan",
+            "name": "Asahan",
+            "has_page": 0,
+            "is_main": 0,
+            "seo_title": null,
+            "seo_description": null,
+            "h1": null,
+            "intro": null,
+            "body": null,
+            "nearby": null,
+            "sort": 10,
+            "created_at": "2026-10-27 07:25:04",
+            "updated_at": "2026-10-27 07:25:04"
+        },
+        {
+            "slug": "labuhanbatu",
+            "name": "Labuhanbatu",
+            "has_page": 0,
+            "is_main": 0,
+            "seo_title": null,
+            "seo_description": null,
+            "h1": null,
+            "intro": null,
+            "body": null,
+            "nearby": null,
+            "sort": 11,
+            "created_at": "2026-10-27 07:25:04",
+            "updated_at": "2026-10-27 07:25:04"
+        },
+        {
+            "slug": "padangsidimpuan",
+            "name": "Padangsidimpuan",
+            "has_page": 0,
+            "is_main": 0,
+            "seo_title": null,
+            "seo_description": null,
+            "h1": null,
+            "intro": null,
+            "body": null,
+            "nearby": null,
+            "sort": 12,
+            "created_at": "2026-10-27 07:25:05",
+            "updated_at": "2026-10-27 07:25:05"
+        },
+        {
+            "slug": "sibolga",
+            "name": "Sibolga",
+            "has_page": 0,
+            "is_main": 0,
+            "seo_title": null,
+            "seo_description": null,
+            "h1": null,
+            "intro": null,
+            "body": null,
+            "nearby": null,
+            "sort": 13,
+            "created_at": "2026-10-27 07:25:05",
+            "updated_at": "2026-10-27 07:25:05"
+        }
+    ],
+    "case_studies": [
+        {
+            "slug": "rsu-serenapita",
+            "client": "RSU Serenapita",
+            "title": "RSU Serenapita: implementasi SIMRS Enigma Health dengan BPJS dan SATUSEHAT",
+            "seo_title": "Studi Kasus Implementasi SIMRS dan BPJS di RSU Serenapita",
+            "seo_description": "Studi kasus implementasi SIMRS Enigma Health di RSU Serenapita: bridging BPJS Kesehatan dan integrasi SATUSEHAT sudah aktif. Pelajari prosesnya di sini.",
+            "summary": "RSU Serenapita membutuhkan SIMRS yang terhubung ke BPJS Kesehatan dan SATUSEHAT tanpa menghentikan pelayanan pasien. Tim Enigma Works Indonesia mengimplementasikan Enigma Health, mengaktifkan bridging BPJS dan integrasi SATUSEHAT, serta menyiapkan aplikasi pendukung sesuai kebutuhan unit. Implementasi masih berjalan.",
+            "facts": "[[\"Klien\",\"Rumah Sakit Umum Serenapita\"],[\"Produk\",\"SIMRS Enigma Health\"],[\"Lingkup\",\"Implementasi SIMRS, bridging BPJS, integrasi SATUSEHAT, aplikasi pendukung\"],[\"Status\",\"Implementasi berjalan; bridging BPJS dan SATUSEHAT aktif\"],[\"Lokasi\",\"[ISI KOTA]\"]]",
+            "checks": "[\"Bridging BPJS Kesehatan aktif untuk pasien JKN\",\"Data kunjungan terkirim ke SATUSEHAT\",\"Implementasi Enigma Health berjalan bertahap per unit\"]",
+            "quote": "Tim Enigma Works Indonesia mendampingi kami dari persiapan hingga sistem terhubung ke BPJS dan SATUSEHAT. Setiap kendala di lapangan ditangani dengan cepat, sehingga pelayanan pasien tetap berjalan selama masa transisi.",
+            "quote_by": "[ISI NAMA]",
+            "quote_role": "[ISI JABATAN], RSU Serenapita",
+            "quote_approved": 0,
+            "sections": "[[\"Tantangan\",\"[ISI TANTANGAN: kondisi sebelum proyek, sistem lama yang dipakai, kendala pelayanan, dan kebutuhan regulasi.]\"],[\"Solusi\",\"Implementasi SIMRS Enigma Health di unit pelayanan, bridging dengan BPJS Kesehatan, integrasi ke SATUSEHAT, serta aplikasi pendukung yang dibuat sesuai kebutuhan rumah sakit.\"],[\"Proses\",\"[ISI PROSES: tahapan survei, persiapan data, pelatihan, go-live per unit, dan pendampingan.]\"],[\"Hasil\",\"Bridging BPJS Kesehatan dan pengiriman data ke SATUSEHAT sudah aktif. [ISI HASIL TERUKUR: misalnya waktu pendaftaran pasien JKN atau kelengkapan berkas klaim, setelah datanya tersedia.]\"]]",
+            "service_slugs": "[\"simrs\",\"bridging-bpjs\",\"integrasi-satusehat\",\"aplikasi-rumah-sakit\"]",
+            "image": null,
+            "sort": 1,
+            "is_active": 1,
+            "created_at": "2026-10-27 07:25:05",
+            "updated_at": "2026-11-05 03:58:38"
+        }
+    ],
+    "portfolio_items": [
+        {
+            "name": "RSU Serenapita",
+            "label": "Proyek Enigma Works Indonesia",
+            "is_own": 1,
+            "text": "Implementasi SIMRS Enigma Health dengan bridging BPJS Kesehatan, integrasi SATUSEHAT, dan aplikasi pendukung.",
+            "image": "uploads/o7H5MsdGnXNYL6ZaU9FEcF8rLLOcqM8WivLJc2iz.jpg",
+            "link": "/studi-kasus/rsu-serenapita",
+            "sort": 1,
+            "is_active": 1,
+            "created_at": "2026-10-27 07:25:05",
+            "updated_at": "2026-11-05 03:54:05"
+        },
+        {
+            "name": "[ISI PROYEK BERIKUTNYA]",
+            "label": "Proyek Enigma Works Indonesia",
+            "is_own": 1,
+            "text": "[ISI RINGKASAN PROYEK]",
+            "image": null,
+            "link": null,
+            "sort": 2,
+            "is_active": 0,
+            "created_at": "2026-11-05 03:54:05",
+            "updated_at": "2026-11-05 03:54:05"
+        }
+    ],
+    "faqs": [
+        {
+            "question": "Apakah Enigma Works Indonesia melayani rumah sakit di Medan?",
+            "answer": "Ya. Tim kami datang ke lokasi untuk survei, instalasi, dan pelatihan, lalu memberikan dukungan harian dari jarak jauh untuk rumah sakit dan klinik di Medan dan seluruh Sumatera Utara.",
+            "sort": 1,
+            "is_active": 0,
+            "created_at": "2026-10-27 07:25:05",
+            "updated_at": "2026-11-05 03:59:34"
+        },
+        {
+            "question": "Apakah SIMRS bisa disesuaikan dengan kebutuhan rumah sakit?",
+            "answer": "Bisa. Modul, alur kerja, dan laporan disesuaikan dengan kebutuhan rumah sakit, lalu kami dampingi mulai dari migrasi data, bridging BPJS, dan integrasi SATUSEHAT, hingga pelatihan dan dukungan setelah go-live.",
+            "sort": 2,
+            "is_active": 0,
+            "created_at": "2026-10-27 07:25:05",
+            "updated_at": "2026-11-05 03:59:34"
+        },
+        {
+            "question": "Berapa lama proses bridging BPJS Kesehatan?",
+            "answer": "Tergantung kondisi SIMRS dan kelengkapan kredensial dari BPJS. Kami memberikan estimasi waktu yang jelas setelah survei awal.",
+            "sort": 3,
+            "is_active": 0,
+            "created_at": "2026-10-27 07:25:05",
+            "updated_at": "2026-11-05 03:59:34"
+        },
+        {
+            "question": "Apakah klinik juga bisa terintegrasi ke SATUSEHAT?",
+            "answer": "Bisa. Kami membantu rumah sakit dan klinik mengirim data rekam medis elektronik ke SATUSEHAT, mulai dari pendaftaran kredensial sampai pengujian pengiriman data.",
+            "sort": 4,
+            "is_active": 0,
+            "created_at": "2026-10-27 07:25:05",
+            "updated_at": "2026-11-05 03:59:34"
+        },
+        {
+            "question": "Apakah tersedia kontrak maintenance?",
+            "answer": "Tersedia. Kontrak mencakup pemantauan sistem, perbaikan, pembaruan, dan waktu respons yang disepakati dalam SLA.",
+            "sort": 5,
+            "is_active": 0,
+            "created_at": "2026-10-27 07:25:05",
+            "updated_at": "2026-11-05 03:59:34"
+        },
+        {
+            "question": "Apakah data dari SIMRS lama bisa dipindahkan?",
+            "answer": "Bisa. Kami memetakan data master dan data pasien dari sistem lama, menguji hasil migrasi bersama tim rumah sakit, lalu memindahkannya sebelum go-live. Riwayat pasien tetap tersedia di Enigma Health.",
+            "sort": 1,
+            "is_active": 1,
+            "created_at": "2026-11-05 03:54:05",
+            "updated_at": "2026-11-05 03:54:05"
+        },
+        {
+            "question": "Berapa lama implementasi SIMRS sampai go-live?",
+            "answer": "Tergantung jumlah unit, kondisi data lama, serta kesiapan perangkat dan jaringan. Setelah survei, kami menyusun jadwal tertulis per tahap, dan go-live dapat dilakukan bertahap per unit agar pelayanan tidak terganggu.",
+            "sort": 2,
+            "is_active": 1,
+            "created_at": "2026-11-05 03:54:05",
+            "updated_at": "2026-11-05 03:54:05"
+        },
+        {
+            "question": "Apakah Enigma Health sudah siap untuk BPJS Kesehatan dan SATUSEHAT?",
+            "answer": "Ya. Bridging BPJS Kesehatan (SEP, V-Claim, antrean online) dan integrasi SATUSEHAT menjadi bagian dari implementasi, dan sudah aktif di proyek yang sedang berjalan.",
+            "sort": 3,
+            "is_active": 1,
+            "created_at": "2026-11-05 03:54:05",
+            "updated_at": "2026-11-05 03:54:05"
+        },
+        {
+            "question": "Bagaimana keamanan data pasien dijaga?",
+            "answer": "Hak akses diatur per peran, aktivitas pengguna tercatat, dan database dibackup terjadwal dengan salinan di lokasi terpisah. Kami juga membantu menguji pemulihan backup secara berkala.",
+            "sort": 4,
+            "is_active": 1,
+            "created_at": "2026-11-05 03:54:05",
+            "updated_at": "2026-11-05 03:54:05"
+        },
+        {
+            "question": "Siapa yang membantu setelah go-live?",
+            "answer": "Tim Enigma Works Indonesia. Helpdesk, pemantauan sistem, pembaruan, dan kunjungan ke lokasi diatur dalam kontrak maintenance dengan waktu respons yang disepakati dalam SLA.",
+            "sort": 5,
+            "is_active": 1,
+            "created_at": "2026-11-05 03:54:05",
+            "updated_at": "2026-11-05 03:54:05"
+        },
+        {
+            "question": "Apakah tersedia versi untuk klinik?",
+            "answer": "Tersedia. Klinik pratama, klinik utama, dan apotek dapat memakai Enigma Health versi ringkas yang tetap membawa rekam medis elektronik dan pengiriman data ke SATUSEHAT.",
+            "sort": 6,
+            "is_active": 1,
+            "created_at": "2026-11-05 03:54:05",
+            "updated_at": "2026-11-05 03:54:05"
+        }
+    ],
+    "posts": [
+        {
+            "slug": "backup-data-simrs-aturan-3-2-1",
+            "title": "Backup Data SIMRS dengan Aturan 3-2-1 agar Pelayanan Tidak Terhenti",
+            "description": "Cara sederhana melindungi database SIMRS dari kerusakan server dan ransomware dengan aturan backup 3-2-1, plus pentingnya uji pemulihan berkala.",
+            "category": "infrastruktur",
+            "cover": "uploads/hVE4yNyMVyo126MHIPk8mMT1fmvsZNlxUiKmDBx9.jpg",
+            "author": "Tim Enigma Works Indonesia",
+            "body": "Ketika server SIMRS rusak atau terkena ransomware, pelayanan rumah sakit bisa terhenti. Satu-satunya penyelamat adalah backup yang benar-benar bisa dipulihkan. Cara paling sederhana untuk memulainya adalah aturan 3-2-1.\r\n\r\n## Apa itu aturan 3-2-1\r\n\r\n- **3 salinan data**: data utama di server, ditambah dua salinan backup.\r\n- **2 jenis media berbeda**: misalnya disk di server backup dan media penyimpanan terpisah.\r\n- **1 salinan di lokasi lain**: di luar gedung rumah sakit, misalnya penyimpanan cloud atau server di lokasi berbeda.\r\n\r\nTujuannya sederhana: satu kejadian, entah kebakaran, kerusakan perangkat, atau serangan, tidak boleh menghapus semua salinan sekaligus.\r\n\r\n## Seberapa sering backup dilakukan\r\n\r\nUntuk database SIMRS, backup harian adalah batas minimum. Rumah sakit dengan transaksi tinggi sebaiknya mempertimbangkan backup beberapa kali sehari atau replikasi database. Pertanyaan kuncinya: berapa jam data yang rela hilang jika server rusak sekarang?\r\n\r\n## Lindungi backup dari ransomware\r\n\r\nRansomware modern sering mencari dan mengenkripsi file backup juga. Karena itu, minimal satu salinan sebaiknya tidak bisa diubah atau tidak terhubung terus-menerus ke jaringan rumah sakit.\r\n\r\n## Yang paling sering terlupa: uji pemulihan\r\n\r\nBackup yang tidak pernah diuji belum tentu bisa dipakai. Jadwalkan uji pemulihan secara berkala: pulihkan backup ke server uji, lalu pastikan SIMRS bisa berjalan dengan data tersebut. Catat berapa lama prosesnya, karena angka inilah yang menentukan berapa lama pelayanan bisa terganggu saat bencana.\r\n\r\n## Langkah berikutnya\r\n\r\nPeriksa kondisi backup rumah sakit Anda hari ini: ada berapa salinan, di mana disimpan, dan kapan terakhir diuji. Jika belum yakin, tim kami bisa membantu lewat [layanan keamanan data dan antivirus](/layanan/keamanan-data) serta [kontrak maintenance](/layanan/maintenance-sla).",
+            "is_published": 1,
+            "published_at": "2026-10-05 00:00:00",
+            "created_at": "2026-10-27 07:25:05",
+            "updated_at": "2026-10-28 08:37:10"
+        },
+        {
+            "slug": "bridging-bpjs-rumah-sakit-tahapan-dan-kendala",
+            "title": "Bridging BPJS Kesehatan untuk Rumah Sakit: Tahapan dan Kendala yang Sering Muncul",
+            "description": "Panduan praktis bridging BPJS Kesehatan di rumah sakit, dari persiapan kredensial, pemetaan data master, uji coba, sampai kendala yang paling sering ditemui.",
+            "category": "bpjs",
+            "cover": "uploads/PHC5zDPWQGzpqxRYoCTYNh5tYPAZ0hhVBJNbPVbk.jpg",
+            "author": "Tim Enigma Works Indonesia",
+            "body": "Hampir setiap rumah sakit yang melayani pasien JKN pernah mengalami hal yang sama: petugas pendaftaran mengetik data pasien di SIMRS, lalu mengetik ulang di aplikasi BPJS. Antrean memanjang, dan risiko salah input membesar. Bridging menyelesaikan masalah ini dengan menghubungkan SIMRS langsung ke layanan BPJS Kesehatan.\r\n\r\nArtikel ini merangkum tahapan bridging yang biasa kami jalankan di lapangan, beserta kendala yang paling sering muncul.\r\n\r\n## Apa saja yang di-bridging\r\n\r\nBridging BPJS bukan satu fitur tunggal. Umumnya ada beberapa bagian yang dihubungkan:\r\n\r\n- **V-Claim**, untuk cek kepesertaan, rujukan, dan penerbitan SEP langsung dari SIMRS.\r\n- **Antrean online**, agar jadwal dokter dan antrean poliklinik rumah sakit tersambung dengan pendaftaran pasien dari aplikasi Mobile JKN.\r\n- **Pendukung klaim**, supaya data pelayanan dari SIMRS bisa dipakai untuk menyusun berkas klaim tanpa input ulang.\r\n\r\nSetiap rumah sakit tidak harus mengerjakan semuanya sekaligus. Biasanya V-Claim didahulukan karena paling terasa dampaknya di pendaftaran.\r\n\r\n## Tahap 1: Persiapan kredensial\r\n\r\nBridging membutuhkan kredensial akses dari BPJS Kesehatan yang diajukan rumah sakit melalui kantor cabang. Pastikan penanggung jawab di rumah sakit jelas, karena kredensial ini bersifat rahasia dan sebaiknya disimpan oleh tim IT, bukan dibagikan lewat grup percakapan.\r\n\r\nBiasanya akses diberikan untuk lingkungan pengujian lebih dulu, baru kemudian produksi setelah alur dinyatakan berjalan baik.\r\n\r\n## Tahap 2: Pemetaan data master\r\n\r\nIni tahap yang paling sering diremehkan. Kode poliklinik, kode dokter, dan kode ruangan di SIMRS harus dicocokkan dengan kode yang dikenal BPJS. Jika pemetaannya salah, SEP bisa gagal terbit atau antrean muncul di poli yang keliru.\r\n\r\nKami menyarankan membuat satu tabel pemetaan yang disetujui bagian pendaftaran dan bagian casemix, lalu baru dimasukkan ke sistem.\r\n\r\n## Tahap 3: Uji alur bersama petugas\r\n\r\nUji coba sebaiknya dilakukan oleh petugas yang benar-benar akan memakai sistem, bukan hanya tim IT. Skenario yang perlu diuji antara lain:\r\n\r\n1. Pasien rujukan dari FKTP datang ke poliklinik.\r\n2. Pasien kontrol ulang dengan surat kontrol.\r\n3. Pasien IGD yang kemudian dirawat inap.\r\n4. Pasien yang mendaftar lewat antrean online.\r\n\r\nSetiap skenario dicatat hasilnya. Masalah yang ditemukan di tahap ini jauh lebih murah diperbaiki daripada setelah go-live.\r\n\r\n## Tahap 4: Go-live dan pemantauan\r\n\r\nSaat pertama dipakai di lingkungan produksi, siapkan pendampingan di meja pendaftaran pada jam sibuk. Pantau juga log komunikasi antara SIMRS dan BPJS selama beberapa minggu pertama, karena pola kegagalan biasanya baru terlihat setelah volume pasien sebenarnya masuk.\r\n\r\n## Kendala yang paling sering muncul\r\n\r\n**Kode dokter atau poli tidak cocok.** Gejalanya, SEP gagal terbit atau antrean tidak muncul. Solusinya kembali ke tabel pemetaan data master.\r\n\r\n**Jadwal dokter tidak sinkron.** Untuk antrean online, jadwal praktik di SIMRS harus selalu diperbarui. Dokter yang cuti tetapi jadwalnya masih aktif akan membuat pasien datang sia-sia.\r\n\r\n**Koneksi internet tidak stabil.** Bridging bergantung pada koneksi ke server BPJS. Jaringan cadangan di area pendaftaran sangat dianjurkan.\r\n\r\n**Perubahan versi layanan.** BPJS sesekali memperbarui layanannya. SIMRS perlu dipelihara agar tetap mengikuti versi yang berlaku, dan di sinilah kontrak maintenance berperan.\r\n\r\n## Kesimpulan\r\n\r\nBridging BPJS yang berhasil bukan hanya soal teknis. Kuncinya ada pada data master yang rapi, uji coba bersama petugas, dan pemantauan setelah go-live. Jika rumah sakit Anda di Medan atau Sumatera Utara sedang menyiapkan bridging, [konsultasikan dengan tim kami](/kontak) atau pelajari [layanan bridging BPJS](/layanan/bridging-bpjs) yang kami kerjakan.",
+            "is_published": 1,
+            "published_at": "2026-10-26 00:00:00",
+            "created_at": "2026-10-27 07:25:05",
+            "updated_at": "2026-10-27 08:33:38"
+        },
+        {
+            "slug": "cara-memilih-simrs-untuk-rumah-sakit",
+            "title": "Cara Memilih SIMRS untuk Rumah Sakit: 8 Hal yang Perlu Dicek",
+            "description": "Daftar periksa memilih SIMRS: integrasi BPJS dan SATUSEHAT, kelengkapan modul, keamanan data, dukungan lokal, migrasi data, sampai biaya total kepemilikan.",
+            "category": "simrs",
+            "cover": null,
+            "author": "Tim Enigma Works Indonesia",
+            "body": "SIMRS akan dipakai setiap hari oleh hampir semua staf rumah sakit, selama bertahun-tahun. Salah memilih berarti pelayanan terganggu, staf frustrasi, dan biaya pindah sistem yang besar. Berikut delapan hal yang sebaiknya dicek sebelum memutuskan.\n\n## 1. Integrasi BPJS dan SATUSEHAT sudah berjalan\n\nJangan puas dengan jawaban \"bisa dikembangkan\". Minta bukti rumah sakit lain yang bridging BPJS dan pengiriman data SATUSEHAT-nya sudah berjalan di lingkungan produksi.\n\n## 2. Modul mencakup alur pelayanan Anda\n\nCek modul pendaftaran, rawat jalan, rawat inap, IGD, kamar operasi, laboratorium, radiologi, farmasi, gudang, kasir, dan klaim. Yang penting bukan banyaknya modul, tetapi apakah data mengalir antarmodul tanpa input ulang.\n\n## 3. Rekam medis elektronik yang dipakai dokter\n\nRME yang baik dirancang untuk alur kerja klinis: asesmen, CPPT, resep, dan hasil penunjang dalam satu riwayat pasien. Ajak dokter dan perawat mencoba demo, karena merekalah pengguna paling kritis.\n\n## 4. Keamanan dan kepatuhan\n\nTanyakan bagaimana sistem melindungi data pasien: pengaturan hak akses per peran, pencatatan aktivitas pengguna, enkripsi, dan kesiapan memenuhi aturan pelindungan data pribadi. Tanyakan juga bagaimana backup dilakukan dan berapa lama pemulihan jika server rusak.\n\n## 5. Dukungan yang dekat\n\nGangguan di rumah sakit tidak bisa menunggu lama. Pastikan ada tim yang bisa merespons cepat dan datang ke lokasi bila perlu. Untuk rumah sakit di Medan dan Sumatera Utara, tanyakan langsung siapa yang akan datang dan berapa lama waktu responsnya.\n\n## 6. Rencana migrasi data\n\nData pasien lama harus ikut pindah. Minta penjelasan tertulis tentang data apa yang dipindahkan, bagaimana diuji, dan siapa yang bertanggung jawab jika ada data yang hilang.\n\n## 7. Biaya total, bukan hanya harga lisensi\n\nHitung semuanya: lisensi atau langganan, biaya implementasi, pelatihan, perangkat keras, dan maintenance tahunan. SIMRS yang terlihat murah di awal bisa menjadi mahal jika setiap perubahan kecil dikenai biaya tambahan.\n\n## 8. Referensi dari rumah sakit sejenis\n\nKunjungi atau hubungi rumah sakit yang sudah memakai sistem tersebut, terutama yang tipe dan ukurannya mirip dengan rumah sakit Anda. Tanyakan apa yang tidak berjalan sesuai harapan, bukan hanya yang berhasil.\n\n## Penutup\n\nMemilih SIMRS adalah keputusan jangka panjang. Luangkan waktu untuk demo, kunjungan referensi, dan perhitungan biaya total. Jika Anda ingin melihat SIMRS yang sudah terintegrasi BPJS dan SATUSEHAT, pelajari [SIMRS Enigma Health](/layanan/simrs) atau baca [studi kasus RSU Serenapita](/studi-kasus/rsu-serenapita).",
+            "is_published": 1,
+            "published_at": "2026-10-12 00:00:00",
+            "created_at": "2026-10-27 07:25:05",
+            "updated_at": "2026-11-05 04:03:36"
+        },
+        {
+            "slug": "persiapan-integrasi-satusehat-rumah-sakit-dan-klinik",
+            "title": "Persiapan Integrasi SATUSEHAT untuk Rumah Sakit dan Klinik",
+            "description": "Langkah menyiapkan integrasi SATUSEHAT Kemenkes: pendaftaran, data master lokasi dan tenaga kesehatan, uji di sandbox, sampai penyebab gagal kirim data yang paling umum.",
+            "category": "satusehat",
+            "cover": "uploads/TqDRqUAInLFLTU92yoMDKtc4TDpa1i80f8pytAGZ.png",
+            "author": "Tim Enigma Works Indonesia",
+            "body": "Sejak Peraturan Menteri Kesehatan Nomor 24 Tahun 2022 tentang Rekam Medis, fasilitas pelayanan kesehatan wajib menyelenggarakan rekam medis elektronik dan terhubung dengan platform SATUSEHAT milik Kementerian Kesehatan. Bagi banyak rumah sakit dan klinik, pertanyaannya bukan lagi perlu atau tidak, tetapi bagaimana memulainya dengan benar.\r\n\r\n## Gambaran singkat SATUSEHAT\r\n\r\nSATUSEHAT adalah platform pertukaran data kesehatan nasional. Data dari SIMRS atau aplikasi klinik dikirim dalam format standar internasional bernama HL7 FHIR. Setiap data kunjungan pasien dipecah menjadi beberapa jenis data, misalnya kunjungan (Encounter), diagnosis (Condition), hasil pemeriksaan (Observation), dan tindakan (Procedure).\r\n\r\nArtinya, SIMRS Anda harus bisa menerjemahkan data internalnya ke format tersebut. Inilah inti pekerjaan integrasi.\r\n\r\n## Langkah 1: Pendaftaran dan kredensial\r\n\r\nFasilitas kesehatan mendaftar di portal SATUSEHAT untuk mendapatkan identitas organisasi dan kredensial akses. Akses biasanya dibuka bertahap: lingkungan uji (sandbox) lebih dulu, lalu produksi.\r\n\r\nSimpan kredensial dengan aman dan catat siapa penanggung jawabnya di rumah sakit.\r\n\r\n## Langkah 2: Siapkan data master\r\n\r\nSebelum data kunjungan bisa dikirim, beberapa data dasar harus terdaftar lebih dulu:\r\n\r\n- **Lokasi**, yaitu poliklinik, ruang rawat, IGD, dan unit lain yang didaftarkan sebagai lokasi organisasi Anda.\r\n- **Tenaga kesehatan**, yang dicocokkan berdasarkan NIK agar mendapat nomor identitas di SATUSEHAT.\r\n- **Pasien**, yang juga dicocokkan melalui NIK saat pertama kali dikirim.\r\n\r\nBanyak kegagalan kirim data berawal dari data master yang belum lengkap, jadi jangan lewati langkah ini.\r\n\r\n## Langkah 3: Pemetaan terminologi\r\n\r\nSATUSEHAT memakai kode standar. Diagnosis menggunakan ICD-10, sedangkan obat dan alat kesehatan menggunakan Kamus Farmasi dan Alat Kesehatan (KFA). SIMRS perlu menyimpan kode-kode ini, bukan hanya nama bebas yang diketik petugas.\r\n\r\nUntuk farmasi, pemetaan obat ke KFA sering memakan waktu paling lama, karena daftar obat rumah sakit bisa mencapai ribuan item.\r\n\r\n## Langkah 4: Uji di sandbox\r\n\r\nKirim data contoh di lingkungan sandbox dan periksa setiap respons. Uji berbagai skenario: rawat jalan, IGD, rawat inap, pasien tanpa NIK, dan pasien bayi baru lahir. Setelah semua skenario lolos, barulah beralih ke produksi.\r\n\r\n## Penyebab gagal kirim yang paling umum\r\n\r\n**NIK pasien tidak ditemukan.** Biasanya karena salah ketik di pendaftaran. Validasi NIK sejak pasien mendaftar akan sangat membantu.\r\n\r\n**Tenaga kesehatan belum terdaftar.** Dokter baru sering lupa didaftarkan di data master.\r\n\r\n**Lokasi belum dibuat.** Poliklinik atau ruangan baru di SIMRS belum didaftarkan ke SATUSEHAT.\r\n\r\n**Kode tidak valid.** Diagnosis tanpa kode ICD-10 atau obat tanpa kode KFA.\r\n\r\n## Pemantauan setelah berjalan\r\n\r\nIntegrasi SATUSEHAT bukan pekerjaan sekali selesai. Siapkan pemantauan harian untuk data yang gagal terkirim, lalu kirim ulang setelah penyebabnya diperbaiki. Dengan begitu, data rumah sakit Anda di SATUSEHAT tetap lengkap.\r\n\r\nButuh pendampingan? Pelajari [layanan integrasi SATUSEHAT](/layanan/integrasi-satusehat) kami untuk rumah sakit dan klinik di Medan dan Sumatera Utara.",
+            "is_published": 1,
+            "published_at": "2026-10-20 00:00:00",
+            "created_at": "2026-10-27 07:25:05",
+            "updated_at": "2026-10-28 08:33:56"
+        },
+        {
+            "slug": "migrasi-data-simrs-lama-ke-sistem-baru",
+            "title": "Migrasi Data SIMRS: Langkah Aman Pindah ke Sistem Baru",
+            "description": "Panduan migrasi data SIMRS: data yang dipindahkan, cara membersihkan data master, uji coba, dan strategi go-live agar pelayanan rumah sakit tetap berjalan.",
+            "category": "simrs",
+            "cover": null,
+            "author": "Tim Enigma Works Indonesia",
+            "body": "Keputusan mengganti SIMRS biasanya datang setelah rumah sakit lama bertahan dengan sistem yang tidak lagi memadai: modul tidak lengkap, belum terhubung ke BPJS Kesehatan atau SATUSEHAT, atau vendor lama sulit dihubungi. Begitu keputusan diambil, pertanyaan berikutnya hampir selalu sama: bagaimana dengan data yang sudah ada?\n\nData pasien, riwayat kunjungan, tarif, dan stok obat adalah aset rumah sakit. Migrasi yang terburu-buru bisa membuat nomor rekam medis ganda, riwayat pasien hilang, atau tagihan salah hitung pada hari pertama sistem baru dipakai. Artikel ini merangkum langkah migrasi data SIMRS yang kami pakai di lapangan, agar perpindahan berjalan aman dan pelayanan tidak terhenti.\n\n## Kenali dulu data yang akan dipindahkan\n\nLangkah pertama bukan memindahkan data, tetapi memetakan apa saja yang ada di sistem lama. Secara umum, data SIMRS terbagi menjadi tiga kelompok.\n\n**Data master** adalah data acuan yang dipakai sehari-hari: daftar dokter, poliklinik, ruang dan kelas perawatan, tarif tindakan, daftar obat dan bahan medis habis pakai, penjamin, serta pengguna sistem. Data ini wajib dipindahkan dan wajib rapi, karena seluruh transaksi baru bergantung padanya.\n\n**Data pasien** mencakup identitas pasien dan nomor rekam medis. Ini data yang paling sensitif dan paling sering bermasalah, misalnya satu pasien tercatat dua kali dengan ejaan nama berbeda.\n\n**Data transaksi** adalah riwayat kunjungan, diagnosis, tindakan, resep, hasil penunjang, dan tagihan. Tidak semua rumah sakit perlu memindahkan seluruh riwayat transaksi ke sistem baru. Kadang cukup memindahkan riwayat beberapa tahun terakhir, sementara data yang lebih lama tetap bisa dibuka dari arsip sistem lama dalam mode baca saja.\n\nKeputusan tentang seberapa jauh riwayat dipindahkan sebaiknya diambil bersama unit rekam medis, karena berkaitan dengan kewajiban penyimpanan rekam medis. [CEK REGULASI: ketentuan masa simpan rekam medis elektronik yang berlaku.]\n\n## Bersihkan data sebelum dipindahkan\n\nMemindahkan data kotor ke sistem baru hanya memindahkan masalah. Karena itu, sebelum migrasi kami menjalankan pemeriksaan sederhana bersama tim rumah sakit:\n\n- **Pasien ganda.** Cari pasien dengan nama, tanggal lahir, dan alamat yang mirip. Penggabungan dilakukan oleh petugas rekam medis, bukan otomatis oleh sistem, karena keputusan ini berdampak pada riwayat klinis.\n- **NIK dan nomor kartu JKN.** Data identitas yang kosong atau tidak valid akan menyulitkan bridging BPJS Kesehatan dan pengiriman data ke SATUSEHAT di kemudian hari.\n- **Tarif dan obat yang sudah tidak dipakai.** Nonaktifkan atau buang item lama agar daftar di sistem baru lebih ringkas dan petugas tidak salah pilih.\n- **Kode diagnosis dan tindakan.** Pastikan kode yang dipakai mengikuti standar, karena kode ini dipakai untuk klaim dan pelaporan.\n\nPembersihan data biasanya memakan waktu lebih lama dari perkiraan. Itu wajar. Waktu yang dihabiskan di tahap ini jauh lebih murah dibandingkan memperbaiki kesalahan setelah sistem baru berjalan.\n\n## Pemetaan dan uji coba migrasi\n\nSetelah data bersih, kolom-kolom di sistem lama dipetakan ke struktur di sistem baru. Misalnya, kode poliklinik lama dipadankan dengan kode poliklinik baru, dan status pembayaran lama diterjemahkan ke status yang dikenal SIMRS baru.\n\nMigrasi tidak langsung dilakukan ke sistem produksi. Kami menjalankan **migrasi uji** ke lingkungan percobaan terlebih dahulu, lalu meminta perwakilan setiap unit memeriksa hasilnya:\n\n1. Petugas pendaftaran mencari beberapa pasien lama dan memastikan identitasnya benar.\n2. Perawat dan dokter membuka riwayat kunjungan beberapa pasien dan mencocokkannya dengan sistem lama.\n3. Farmasi memeriksa daftar obat dan saldo stok.\n4. Kasir mencoba membuat tagihan dengan tarif yang sudah dipindahkan.\n\nSetiap temuan dicatat, diperbaiki di skrip migrasi, lalu migrasi uji diulang. Biasanya diperlukan dua sampai tiga putaran sampai hasilnya dinyatakan layak oleh rumah sakit.\n\n## Strategi go-live: kapan sistem lama dimatikan\n\nAda dua pendekatan yang umum dipakai.\n\n**Go-live serentak.** Seluruh unit pindah ke sistem baru pada hari yang sama, biasanya di akhir pekan atau tanggal dengan kunjungan rendah. Data transaksi terakhir dari sistem lama dipindahkan pada malam sebelumnya. Pendekatan ini cepat, tetapi menuntut persiapan dan pelatihan yang matang.\n\n**Go-live bertahap.** Unit dipindahkan satu per satu, misalnya dimulai dari rawat jalan, lalu farmasi, rawat inap, dan IGD. Risikonya lebih kecil, tetapi selama masa transisi perlu ada jembatan agar data dari unit yang sudah pindah tetap terbaca oleh unit yang belum pindah.\n\nApa pun pendekatannya, beberapa hal sebaiknya selalu ada:\n\n- **Pembekuan data.** Tentukan waktu ketika sistem lama tidak lagi menerima transaksi baru, agar tidak ada data yang tertinggal.\n- **Prosedur cadangan.** Siapkan formulir manual untuk berjaga-jaga bila terjadi kendala di jam pertama, beserta petugas yang bertanggung jawab memasukkannya kembali ke sistem.\n- **Pendampingan di lokasi.** Tim implementasi hadir di setiap unit pada hari-hari awal untuk menjawab pertanyaan dan menangani kendala secara langsung.\n- **Sistem lama tetap tersedia untuk dibaca.** Jangan langsung mematikan server lama. Biarkan tetap bisa dibuka dalam mode baca sampai rumah sakit yakin semua data sudah aman.\n\n## Hal yang sering terlupa\n\nBeberapa detail kecil sering baru disadari setelah go-live:\n\n- **Nomor rekam medis.** Tentukan sejak awal apakah format nomor lama dipertahankan atau diganti. Mengganti format berarti kartu pasien dan label berkas juga perlu disesuaikan.\n- **Saldo awal.** Stok obat, deposit pasien rawat inap, dan piutang penjamin perlu dihitung ulang pada saat pembekuan data.\n- **Hak akses.** Akun pengguna di sistem baru sebaiknya dibuat ulang sesuai peran, bukan disalin mentah dari sistem lama.\n- **Integrasi.** Kredensial bridging BPJS Kesehatan dan SATUSEHAT perlu dipindahkan dan diuji di sistem baru sebelum hari go-live, agar penerbitan SEP tidak terhambat.\n\n## Penutup\n\nMigrasi data SIMRS bukan sekadar pekerjaan teknis memindahkan tabel. Keberhasilannya ditentukan oleh data yang bersih, uji coba bersama pengguna, dan rencana go-live yang realistis. Dengan langkah-langkah di atas, rumah sakit bisa berpindah sistem tanpa menghentikan pelayanan pasien.\n\nMigrasi data menjadi bagian dari setiap implementasi [SIMRS Enigma Health](/layanan/simrs), termasuk pengujian ulang [bridging BPJS Kesehatan](/layanan/bridging-bpjs) dan [integrasi SATUSEHAT](/layanan/integrasi-satusehat) di sistem baru. Jika rumah sakit Anda sedang mempertimbangkan pergantian SIMRS, [konsultasikan kondisi sistem lama Anda dengan tim kami](/kontak), tanpa biaya.",
+            "is_published": 1,
+            "published_at": "2026-11-05 00:00:00",
+            "created_at": "2026-11-05 03:54:05",
+            "updated_at": "2026-11-05 03:58:38"
+        },
+        {
+            "slug": "rekam-medis-elektronik-klinik-satusehat",
+            "title": "RME Klinik: Cara Memulai dan Terhubung ke SATUSEHAT",
+            "description": "Panduan RME klinik: kewajiban rekam medis elektronik, fitur yang perlu ada, persiapan data, langkah terhubung ke SATUSEHAT, dan kesalahan yang sering terjadi.",
+            "category": "satusehat",
+            "cover": null,
+            "author": "Tim Enigma Works Indonesia",
+            "body": "Banyak klinik pratama dan klinik utama masih mencatat pemeriksaan pasien di kartu kertas atau di aplikasi sederhana yang tidak terhubung ke mana pun. Sejak terbitnya Peraturan Menteri Kesehatan Nomor 24 Tahun 2022 tentang Rekam Medis, kondisi itu tidak lagi cukup. Setiap fasilitas pelayanan kesehatan, termasuk klinik, wajib menyelenggarakan rekam medis elektronik (RME) dan terhubung dengan SATUSEHAT, platform data kesehatan milik Kementerian Kesehatan.\n\nBagi klinik dengan tim kecil, kewajiban ini sering terasa berat. Kabar baiknya, memulai RME klinik tidak harus rumit. Artikel ini membahas apa yang perlu disiapkan, fitur yang sebaiknya ada, dan langkah praktis sampai data klinik terkirim ke SATUSEHAT.\n\n## Apa yang diwajibkan\n\nSecara garis besar, Permenkes 24/2022 mengatur bahwa rekam medis diselenggarakan secara elektronik, dijaga kerahasiaannya, dan datanya dapat dipertukarkan melalui platform yang ditetapkan Kementerian Kesehatan, yaitu SATUSEHAT. Batas waktu transisi dan ketentuan teknis turunannya beberapa kali diperjelas melalui surat edaran dan petunjuk teknis. [CEK REGULASI: batas waktu dan sanksi terbaru yang berlaku untuk klinik.]\n\nSelain itu, data kesehatan termasuk data pribadi yang bersifat spesifik menurut Undang-Undang Nomor 27 Tahun 2022 tentang Pelindungan Data Pribadi. Artinya, klinik juga bertanggung jawab menjaga siapa saja yang boleh membuka data pasien dan bagaimana data itu disimpan.\n\nDua hal ini menjadi dasar dalam memilih sistem: RME yang dipakai harus mampu mengirim data ke SATUSEHAT, dan harus punya pengaturan akses yang jelas.\n\n## Fitur RME klinik yang sebaiknya ada\n\nKlinik tidak membutuhkan semua modul yang dipakai rumah sakit besar. Namun, beberapa fitur sebaiknya sudah tersedia sejak awal:\n\n- **Pendaftaran dan antrean.** Identitas pasien dicatat sekali, termasuk NIK, lalu dipakai di semua kunjungan berikutnya.\n- **Pemeriksaan dokter.** Anamnesis, pemeriksaan fisik, diagnosis dengan kode ICD-10, dan tindakan tercatat dalam satu layar yang cepat diisi.\n- **Resep elektronik dan farmasi.** Resep dari dokter langsung masuk ke bagian obat, lengkap dengan stoknya.\n- **Kasir.** Tagihan terbentuk dari layanan dan obat yang diberikan, tanpa menghitung ulang.\n- **Riwayat pasien.** Dokter bisa melihat kunjungan sebelumnya sebelum memeriksa pasien.\n- **Pengiriman ke SATUSEHAT.** Data kunjungan dan diagnosis terkirim, dan klinik bisa melihat bila ada data yang gagal terkirim.\n- **Hak akses per peran.** Petugas pendaftaran, dokter, perawat, dan kasir hanya melihat data yang memang dibutuhkan.\n\nBila klinik melayani pasien JKN sebagai fasilitas kesehatan tingkat pertama, perlu juga dipastikan bagaimana sistem RME bekerja berdampingan dengan aplikasi yang disediakan BPJS Kesehatan untuk FKTP. [CEK REGULASI: ketentuan integrasi FKTP dengan BPJS Kesehatan yang berlaku.]\n\n## Persiapan sebelum terhubung ke SATUSEHAT\n\nSebagian besar kegagalan pengiriman data ke SATUSEHAT tidak disebabkan oleh aplikasinya, tetapi oleh data dasar yang belum siap. Karena itu, siapkan beberapa hal berikut sejak awal.\n\n**Data organisasi dan kredensial.** Klinik perlu terdaftar dan memiliki akses ke lingkungan pengembangan (sandbox) dan produksi SATUSEHAT. Proses ini dilakukan melalui kanal resmi Kementerian Kesehatan, dan biasanya memerlukan penanggung jawab dari pihak klinik.\n\n**Data lokasi.** Ruang pemeriksaan, ruang tindakan, dan unit lain didaftarkan sebagai lokasi, karena setiap kunjungan dikaitkan dengan lokasi tempat pelayanan diberikan.\n\n**Data tenaga kesehatan.** Dokter dan tenaga kesehatan lain perlu dicocokkan dengan data mereka di SATUSEHAT. Nama atau NIK yang tidak sesuai akan membuat data kunjungan ditolak.\n\n**NIK pasien.** Pengiriman data pasien membutuhkan identitas yang valid. Biasakan petugas pendaftaran mencatat NIK dengan benar sejak hari pertama.\n\n**Kode diagnosis.** Diagnosis yang ditulis bebas tanpa kode akan menyulitkan pengiriman. Gunakan kode ICD-10 yang sudah tersedia di sistem.\n\n## Langkah praktis memulai\n\nUntuk klinik yang baru memulai RME, kami biasanya menyarankan urutan berikut:\n\n1. **Pilih sistem yang sudah mendukung SATUSEHAT.** Mengembangkan integrasi sendiri membutuhkan waktu dan tenaga teknis yang jarang dimiliki klinik.\n2. **Siapkan perangkat dan jaringan.** Komputer di meja pendaftaran, ruang dokter, farmasi, dan kasir, ditambah koneksi internet yang stabil.\n3. **Masukkan data master.** Dokter, jadwal, tarif, obat, dan lokasi diisi dan diperiksa sebelum sistem dipakai.\n4. **Latih petugas.** Pelatihan singkat per peran, disertai simulasi alur pasien dari pendaftaran sampai kasir.\n5. **Uji kirim di sandbox.** Kirim beberapa data kunjungan percobaan ke lingkungan uji SATUSEHAT dan perbaiki bila ada penolakan.\n6. **Mulai di produksi.** Setelah uji berhasil, aktifkan pengiriman di lingkungan produksi dan pantau hasilnya setiap hari pada minggu-minggu awal.\n\n## Kesalahan yang sering terjadi\n\nDari pengalaman mendampingi fasilitas kesehatan, beberapa kesalahan berikut paling sering muncul:\n\n- **Menganggap RME hanya urusan aplikasi.** Tanpa kebiasaan baru di meja pendaftaran dan ruang dokter, data tetap tidak lengkap.\n- **Mencatat ulang di kertas.** Bila dokter tetap menulis di kartu kertas lalu petugas menyalinnya ke sistem, beban kerja justru bertambah.\n- **Tidak memantau data yang gagal terkirim.** Data yang ditolak SATUSEHAT perlu diperbaiki dan dikirim ulang, bukan dibiarkan menumpuk.\n- **Akun bersama.** Satu akun dipakai beramai-ramai membuat jejak akses tidak jelas, padahal data pasien termasuk data pribadi yang dilindungi.\n- **Tidak ada backup.** RME yang tersimpan di satu komputer tanpa salinan cadangan berisiko hilang bila perangkat rusak.\n\n## Penutup\n\nRekam medis elektronik untuk klinik tidak harus dimulai dengan sistem besar dan mahal. Yang penting adalah sistem yang mampu mengirim data ke SATUSEHAT, data dasar yang rapi, dan petugas yang terbiasa mencatat langsung di sistem.\n\nUntuk klinik pratama, klinik utama, dan apotek, tersedia [Enigma Health versi ringkas](/layanan/simrs) yang sudah membawa rekam medis elektronik dan pengiriman data ke SATUSEHAT. Tim kami juga mendampingi proses [integrasi SATUSEHAT](/layanan/integrasi-satusehat), dari kredensial sampai pemantauan pengiriman. Bila klinik Anda berada di Medan atau Sumatera Utara, [hubungi kami untuk konsultasi gratis](/kontak).",
+            "is_published": 1,
+            "published_at": "2026-11-12 00:00:00",
+            "created_at": "2026-11-05 03:54:05",
+            "updated_at": "2026-11-05 03:58:38"
+        }
+    ]
+}

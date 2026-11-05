@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# GANTI domain berikut dengan domain asli Anda
+Sitemap: https://www.enigmaworks.co.id/sitemap.xml

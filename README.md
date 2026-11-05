@@ -70,6 +70,26 @@ Website multi-halaman dengan desain baru dan **backoffice** untuk mengubah isi t
 - [ ] Lengkapi studi kasus Serenapita (kota, tantangan, proses, hasil) dan minta persetujuan testimoni.
 - [ ] Untuk server live: `APP_ENV=production`, `APP_DEBUG=false`, lalu `php artisan config:cache`, `route:cache`, `view:cache`.
 
+## Menyalin isi database lokal ke production
+
+Database (`database/database.sqlite`) tidak ikut ke Git. Isi website dibawa lewat snapshot:
+
+1. Di komputer lokal, setelah mengubah isi lewat backoffice:
+   ```
+   php artisan content:export
+   ```
+   Perintah ini menulis `database/seeders/data/content.json` dan menyalin gambar unggahan ke `database/seeders/data/media/`. Commit folder itu lalu push.
+2. Di server production (sekali saat pertama, lalu di setiap deploy):
+   ```
+   php artisan migrate --force --seed
+   php artisan storage:link
+   ```
+   Seeder hanya mengisi baris yang belum ada, jadi perubahan yang dibuat lewat backoffice production tidak tertimpa.
+3. Untuk memaksa production sama persis dengan snapshot (menimpa isi yang sudah ada):
+   ```
+   php artisan content:import --overwrite
+   ```
+
 ## Setelah tayang
 
 1. Daftarkan website di Google Search Console dan kirim `https://domainanda/sitemap.xml`.
